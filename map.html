@@ -1,0 +1,739 @@
+<!DOCTYPE html>
+<!-- saved from url=(0016)http://localhost -->
+<html>
+  <head>
+    <meta charset="utf-8"/>
+    <meta content="IE=edge" http-equiv="X-UA-Compatible"/>
+    <title>化工热力学基石</title>
+    <style>
+        body{
+            margin: 0;
+            scroll-behavior: no;
+        }
+        #content-info{
+            width: auto;
+            margin: 0 auto;
+            text-align: center;
+        }
+        #author-info{
+            white-space: nowrap;
+            text-overflow: ellipsis;
+            overflow: hidden;
+        }
+        #title{
+            text-overflow: ellipsis;
+            white-space: nowrap;
+            overflow: hidden;
+            padding-top: 10px;
+            margin-bottom: 2px;
+            font-size: 34px;
+            color: #505050;
+        }
+        .text{
+            white-space:nowrap;
+            text-overflow: ellipsis;
+            display: inline-block;
+            margin-right: 20px;
+            margin-bottom: 2px;
+            font-size: 20px;
+            color: #8c8c8c;
+        }
+        #navBar{
+            width: auto;
+            height: auto;
+            position: fixed;
+            right:0;
+            bottom: 0;
+            background-color: #f0f3f4;
+            overflow-y: auto;
+            text-align: center;
+        }
+        #svg-container{
+            max-width: 4000px;
+            overflow-x: scroll;
+            min-width: 0px;
+            margin: 0 10px;
+            overflow: visible;
+            position: relative;
+        }
+        #nav-thumbs{
+            overflow-y: scroll;
+            padding: 0 5px;
+        }
+        .nav-thumb{
+            position: relative;
+            margin: 10px auto;
+        }
+        .nav-thumb >p{
+            text-align: center;
+            font-size: 12px;
+            margin: 4px 0 0 0;
+        }
+        .nav-thumb >div{
+            position: relative;
+            display: inline-block;
+            border: 1px solid #c6cfd5;
+        }
+        .nav-thumb img{
+            display: block;
+        }
+        #main-content{
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background-color: #d0cfd8;
+            display: flex;
+            max-height: 4000px;
+            flex-flow: row wrap;
+            text-align:center;
+        }
+        #svg-container >svg{
+            overflow: visible;
+            display: block;
+            margin:5px auto;
+            margin-bottom: 5px;
+        }
+        #copyright{
+            bottom: 0;
+            left: 50%;
+            margin: 5px auto;
+            font-size: 16px;
+            color: #515151;
+        }
+        #copyright >a{
+            text-decoration: none;
+            color: #77C;
+        }
+        .number{
+            position: absolute;
+            top:0;
+            left:0;
+            border-top:22px solid #08a1ef;
+            border-right: 22px solid transparent;
+        }
+        .pagenum{
+            font-size: 12px;
+            color: #fff;
+            position: absolute;
+            top: -23px;
+            left: 2px;
+        }
+            #navBar::-webkit-scrollbar{
+            width: 8px;
+            background-color: #f5f5f5;
+        }
+            #navBar::-webkit-scrollbar-track{
+            -webkit-box-shadow: inset 0 0 4px rgba(0,0,0,.3);
+            border-radius: 8px;
+            background-color: #fff;
+        }
+            #navBar::-webkit-scrollbar-thumb{
+            border-radius: 8px;
+            -webkit-box-shadow: inset 0 0 4px rgba(0,0,0,.3);
+            background-color: #6b6b70;
+        }
+        #navBar::-webkit-scrollbar-thumb:hover{
+            background-color: #4a4a4f;
+        }
+</style>
+  </head>
+  <body>
+    <div id="main-area">
+      <div id="main-content">
+        <div id="svg-container"><svg height="665" xmlns="http://www.w3.org/2000/svg" ed:vSpacing="58" xmlns:ev="http://www.w3.org/2001/xml-events" ed:name="页面-1" id="page0" width="2401" viewBox="0 0 2401 665" xmlns:ed="https://www.edrawsoft.cn/xml/2017/SVGExtensions/" ed:hSpacing="31" preserveAspectRadio="xMinYMin meet" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <style type="text/css"><![CDATA[
+g[ed\:togtopicid],g[ed\:hyperlink],g[ed\:comment],g[ed\:note] {cursor:pointer;}
+g[id] {-moz-user-select: none;-ms-user-select: none;user-select: none;}
+svg text::selection,svg tspan::selection{background-color: #4285f4;color: #ffffff;fill: #ffffff;}
+.st15 {fill:#000000;font-family:微软雅黑;font-size:10pt}
+.st20 {fill:#000000;font-family:微软雅黑;font-size:12pt;font-weight:bold}
+.st21 {fill:#303030;font-family:微软雅黑 Light;font-size:10pt}
+.st19 {fill:#303030;font-family:微软雅黑;font-size:10pt}
+.st17 {fill:#303030;font-family:微软雅黑;font-size:9pt;font-weight:bold}
+.st18 {fill:#303030;font-family:微软雅黑;font-size:9pt}
+.st16 {fill:#ffffff;font-family:微软雅黑;font-size:9pt;font-weight:bold}
+]]></style>
+    <defs/>
+    <rect height="665" width="2401" fill="#ffffff" x="0" y="0"/>
+    <path ed:idlist="109,111,113,127,129" id="272" fill="none" transform="matrix(1,0,0,1,385.45,220.29)" stroke-linejoin="round" ed:parentid="109,111,113,127" ed:type="summary" stroke="#00af54" stroke-width="2" d="M0.1,0C6,0,5.9,22.6,5.9,22.6L5.9,159.6C5.9,159.6,6.9,178.9,12,178.9C6.9,179.7,5.9,198.2,5.9,198.2L5.9,335.2C5.9,335.2,5.8,357.8,0,357.8"/>
+    <path ed:idlist="141,143" id="158" fill="none" transform="matrix(1,0,0,1,794.55,135.89)" stroke-linejoin="round" ed:parentid="141,143" ed:type="summary" stroke="#00af54" stroke-width="2" d="M0.1,0C6,0,5.9,3.7,5.9,3.7L5.9,26.1C5.9,26.1,6.9,29.2,12,29.2C6.9,29.4,5.9,32.4,5.9,32.4L5.9,54.8C5.9,54.8,5.8,58.5,0,58.5"/>
+    <path ed:idlist="186,188" id="192" fill="none" transform="matrix(1,0,0,1,1308.12,30.95)" stroke-linejoin="round" ed:parentid="186,188" ed:type="summary" stroke="#00af54" stroke-width="2" d="M0.1,0C6,0,5.9,3.7,5.9,3.7L5.9,26.1C5.9,26.1,6.9,29.2,12,29.2C6.9,29.4,5.9,32.4,5.9,32.4L5.9,54.8C5.9,54.8,5.8,58.5,0,58.5"/>
+    <path ed:idlist="208,212,227,229,231,234,235,210,239,260,242,248,250,244,252,254,256,258,246,263,265" id="269" fill="none" transform="matrix(1,0,0,1,1932.77,169.35)" stroke-linejoin="round" ed:parentid="208,210" ed:type="summary" stroke="#00af54" stroke-width="2" d="M0.1,0C6,0,5.9,25.3,5.9,25.3L5.9,178.4C5.9,178.4,6.9,200,12,200C6.9,200.9,5.9,221.6,5.9,221.6L5.9,374.7C5.9,374.7,5.8,400,0,400"/>
+    <path ed:idlist="227,229,231" id="233" fill="none" transform="matrix(1,0,0,1,1713.16,169.35)" stroke-linejoin="round" ed:parentid="227,229,231" ed:type="summary" stroke="#00af54" stroke-width="2" d="M0.1,0C6,0,5.9,5.9,5.9,5.9L5.9,41.5C5.9,41.5,6.9,46.5,12,46.5C6.9,46.8,5.9,51.6,5.9,51.6L5.9,87.2C5.9,87.2,5.8,93.1,0,93.1"/>
+    <g ed:toid="159" ed:fromid="275" id="276" transform="matrix(1,0,0,1,896.83,201.89)" ed:type="relation">
+        <path fill="none" d="M19.2,22.1C38.7,5.6,-38.7,-5.6,-19.2,-22.1"/>
+        <path fill="none" stroke-linejoin="round" stroke-linecap="round" stroke-dasharray="6,4" stroke="#00af54" stroke-width="2" d="M19.2,22.1C35.8,8.1,-17.5,-2.1,-22.1,-14.9"/>
+        <path fill="#00af54" stroke-linecap="round" stroke-width="1" stroke="#00af54" d="M-19.2,-22.1L-28.1,-15.1C-26.2,-15.4,-24.2,-15.1,-22.3,-14.4C-20.4,-13.6,-18.8,-12.4,-17.6,-10.9L-19.2,-22.1"/>
+    </g>
+    <g ed:toid="298" ed:fromid="300" id="303" transform="matrix(1,0,0,1,2109.58,445.98)" ed:type="relation">
+        <path fill="none" d="M-19.8,15.7C10.4,-14.1,-10.4,14.1,19.8,-15.7"/>
+        <path fill="none" stroke-linejoin="round" stroke-linecap="round" stroke-dasharray="6,4" stroke="#00af54" stroke-width="2" d="M-19.8,15.7C8.1,-11.9,-7.6,10.2,13.8,-9.9"/>
+        <path fill="#00af54" stroke-linecap="round" stroke-width="1" stroke="#00af54" d="M19.8,-15.7L8.8,-12.9C10.7,-12.4,12.4,-11.4,13.8,-9.9C15.3,-8.4,16.2,-6.7,16.7,-4.8L19.8,-15.7"/>
+    </g>
+    <g id="110" transform="matrix(1,0,0,1,134.11,308.39)" ed:parentid="101" ed:tosuperid="109">
+        <path fill="none" d="M-6.4,72L26.2,72L26.2,-72L58.7,-72"/>
+        <path fill="none" stroke-linejoin="round" stroke-linecap="round" stroke="#454545" stroke-width="3" d="M-6.4,72L26.2,72L26.2,-72L50.1,-72"/>
+        <path fill="#454545" stroke-linecap="round" stroke-width="1" stroke="#454545" d="M50.1,-76.3L58.7,-72L50.1,-67.7L50.1,-76.3"/>
+    </g>
+    <g id="112" transform="matrix(1,0,0,1,134.11,356.39)" ed:parentid="101" ed:tosuperid="111">
+        <path fill="none" d="M-6.4,24L26.2,24L26.2,-24L58.7,-24"/>
+        <path fill="none" stroke-linejoin="round" stroke-linecap="round" stroke="#454545" stroke-width="3" d="M-6.4,24L26.2,24L26.2,-24L50.1,-24"/>
+        <path fill="#454545" stroke-linecap="round" stroke-width="1" stroke="#454545" d="M50.1,-28.3L58.7,-24L50.1,-19.7L50.1,-28.3"/>
+    </g>
+    <g id="114" transform="matrix(1,0,0,1,134.11,404.39)" ed:parentid="101" ed:tosuperid="113">
+        <path fill="none" d="M-6.4,-24L26.2,-24L26.2,24L58.7,24"/>
+        <path fill="none" stroke-linejoin="round" stroke-linecap="round" stroke="#454545" stroke-width="3" d="M-6.4,-24L26.2,-24L26.2,24L50.1,24"/>
+        <path fill="#454545" stroke-linecap="round" stroke-width="1" stroke="#454545" d="M50.1,19.7L58.7,24L50.1,28.3L50.1,19.7"/>
+    </g>
+    <g id="128" transform="matrix(1,0,0,1,134.11,452.39)" ed:parentid="101" ed:tosuperid="127">
+        <path fill="none" d="M-6.4,-72L26.2,-72L26.2,72L58.7,72"/>
+        <path fill="none" stroke-linejoin="round" stroke-linecap="round" stroke="#454545" stroke-width="3" d="M-6.4,-72L26.2,-72L26.2,72L50.1,72"/>
+        <path fill="#454545" stroke-linecap="round" stroke-width="1" stroke="#454545" d="M50.1,67.7L58.7,72L50.1,76.3L50.1,67.7"/>
+    </g>
+    <path id="130" fill="none" transform="matrix(1,0,0,1,268.9,559.27)" stroke-linejoin="round" stroke-linecap="round" ed:parentid="127" ed:tosuperid="129" stroke="#454545" d="M-9.6,-18.8L-9.6,3.8C-6.4,18.8,-6.4,18.8,9.6,18.8"/>
+    <g id="142" transform="matrix(1,0,0,1,637.61,279.48)" ed:parentid="131" ed:tosuperid="141">
+        <path fill="none" d="M-17.7,119.7L0,119.7L0,-119.7L17.7,-119.7"/>
+        <path fill="none" stroke-linejoin="round" stroke-linecap="round" stroke="#454545" d="M-17.7,119.7L0,119.7L0,-119.7L12.7,-119.7"/>
+        <path fill="#454545" stroke-linecap="round" stroke-width="1" stroke="#454545" d="M12.7,-122.2L17.7,-119.7L12.7,-117.2L12.7,-122.2"/>
+    </g>
+    <g id="144" transform="matrix(1,0,0,1,637.61,296.78)" ed:parentid="131" ed:tosuperid="143">
+        <path fill="none" d="M0,102.4L0,-102.4L17.7,-102.4"/>
+        <path fill="none" stroke-linejoin="round" stroke-linecap="round" stroke="#454545" d="M0,102.4L0,-102.4L12.7,-102.4"/>
+        <path fill="#454545" stroke-linecap="round" stroke-width="1" stroke="#454545" d="M12.7,-104.9L17.7,-102.4L12.7,-99.9L12.7,-104.9"/>
+    </g>
+    <g id="146" transform="matrix(1,0,0,1,637.61,501.56)" ed:parentid="131" ed:tosuperid="145">
+        <path fill="none" d="M0,-102.4L0,102.4L17.7,102.4"/>
+        <path fill="none" stroke-linejoin="round" stroke-linecap="round" stroke="#454545" d="M0,-102.4L0,102.4L12.7,102.4"/>
+        <path fill="#454545" stroke-linecap="round" stroke-width="1" stroke="#454545" d="M12.7,99.9L17.7,102.4L12.7,104.9L12.7,99.9"/>
+    </g>
+    <g id="148" transform="matrix(1,0,0,1,637.61,518.86)" ed:parentid="131" ed:tosuperid="147">
+        <path fill="none" d="M0,-119.7L0,119.7L17.7,119.7"/>
+        <path fill="none" stroke-linejoin="round" stroke-linecap="round" stroke="#454545" d="M0,-119.7L0,119.7L12.7,119.7"/>
+        <path fill="#454545" stroke-linecap="round" stroke-width="1" stroke="#454545" d="M12.7,117.2L17.7,119.7L12.7,122.2L12.7,117.2"/>
+    </g>
+    <path id="173" fill="none" transform="matrix(1,0,0,1,996.52,165.14)" stroke-linejoin="round" stroke-linecap="round" ed:parentid="159" ed:tosuperid="172" stroke="#454545" d="M-21.8,0L-10.8,0C5.9,0,5.9,0,21.8,0"/>
+    <path id="179" fill="none" transform="matrix(1,0,0,1,1085.4,127.29)" stroke-linejoin="round" stroke-linecap="round" ed:parentid="172" ed:tosuperid="178" stroke="#454545" d="M-21.8,37.8L-10.8,37.8C5.9,-37.8,5.9,-37.8,21.8,-37.8"/>
+    <path id="181" fill="none" transform="matrix(1,0,0,1,1085.4,202.98)" stroke-linejoin="round" stroke-linecap="round" ed:parentid="172" ed:tosuperid="180" stroke="#454545" d="M-10.8,-37.8C5.9,37.8,5.9,37.8,21.8,37.8"/>
+    <path id="187" fill="none" transform="matrix(1,0,0,1,1187.88,72.15)" stroke-linejoin="round" stroke-linecap="round" ed:parentid="178" ed:tosuperid="186" stroke="#454545" d="M-21.8,17.3L-10.8,17.3C5.9,-17.3,5.9,-17.3,21.8,-17.3"/>
+    <path id="189" fill="none" transform="matrix(1,0,0,1,1187.88,89.45)" stroke-linejoin="round" stroke-linecap="round" ed:parentid="178" ed:tosuperid="188" stroke="#454545" d="M-10.8,0C5.9,-0,5.9,-0,21.8,-0"/>
+    <path id="191" fill="none" transform="matrix(1,0,0,1,1187.88,106.75)" stroke-linejoin="round" stroke-linecap="round" ed:parentid="178" ed:tosuperid="190" stroke="#454545" d="M-10.8,-17.3C5.9,17.3,5.9,17.3,21.8,17.3"/>
+    <path id="195" fill="none" transform="matrix(1,0,0,1,1407.49,51.55)" stroke-linejoin="round" stroke-linecap="round" ed:parentid="193" ed:tosuperid="194" stroke="#454545" d="M-21.8,8.6L-10.8,8.6C5.9,-8.7,5.9,-8.7,21.8,-8.7"/>
+    <path id="197" fill="none" transform="matrix(1,0,0,1,1407.49,68.85)" stroke-linejoin="round" stroke-linecap="round" ed:parentid="193" ed:tosuperid="196" stroke="#454545" d="M-10.8,-8.6C5.9,8.6,5.9,8.6,21.8,8.6"/>
+    <path id="205" fill="none" transform="matrix(1,0,0,1,1187.88,199.74)" stroke-linejoin="round" stroke-linecap="round" ed:parentid="180" ed:tosuperid="204" stroke="#454545" d="M-21.8,41.1L-10.8,41.1C5.9,-41.1,5.9,-41.1,21.8,-41.1"/>
+    <path id="207" fill="none" transform="matrix(1,0,0,1,1187.88,281.91)" stroke-linejoin="round" stroke-linecap="round" ed:parentid="180" ed:tosuperid="206" stroke="#454545" d="M-10.8,-41.1C5.9,41.1,5.9,41.1,21.8,41.1"/>
+    <path id="209" fill="none" transform="matrix(1,0,0,1,1317.56,275.43)" stroke-linejoin="round" stroke-linecap="round" ed:parentid="206" ed:tosuperid="208" stroke="#454545" d="M-21.8,47.6L-10.8,47.6C5.9,-47.6,5.9,-47.6,21.8,-47.6"/>
+    <path id="211" fill="none" transform="matrix(1,0,0,1,1317.56,370.57)" stroke-linejoin="round" stroke-linecap="round" ed:parentid="206" ed:tosuperid="210" stroke="#454545" d="M-10.8,-47.6C5.9,47.6,5.9,47.6,21.8,47.6"/>
+    <path id="213" fill="none" transform="matrix(1,0,0,1,1447.24,227.85)" stroke-linejoin="round" stroke-linecap="round" ed:parentid="208" ed:tosuperid="212" stroke="#454545" d="M-21.8,0L-10.8,0C5.9,0,5.9,0,21.8,0"/>
+    <path id="228" fill="none" transform="matrix(1,0,0,1,1584.32,210.55)" stroke-linejoin="round" stroke-linecap="round" ed:parentid="212" ed:tosuperid="227" stroke="#454545" d="M-21.8,17.3L-10.8,17.3C5.9,-17.3,5.9,-17.3,21.8,-17.3"/>
+    <path id="230" fill="none" transform="matrix(1,0,0,1,1584.32,227.85)" stroke-linejoin="round" stroke-linecap="round" ed:parentid="212" ed:tosuperid="229" stroke="#454545" d="M-10.8,0C5.9,0,5.9,0,21.8,0"/>
+    <path id="232" fill="none" transform="matrix(1,0,0,1,1584.32,245.15)" stroke-linejoin="round" stroke-linecap="round" ed:parentid="212" ed:tosuperid="231" stroke="#454545" d="M-10.8,-17.3C5.9,17.3,5.9,17.3,21.8,17.3"/>
+    <path id="236" fill="none" transform="matrix(1,0,0,1,1839.73,215.9)" stroke-linejoin="round" stroke-linecap="round" ed:parentid="234" ed:tosuperid="235" stroke="#454545" d="M-21.8,0L-10.8,0C5.9,0,5.9,0,21.8,0"/>
+    <path id="240" fill="none" transform="matrix(1,0,0,1,1447.24,418.15)" stroke-linejoin="round" stroke-linecap="round" ed:parentid="210" ed:tosuperid="239" stroke="#454545" d="M-21.8,0L-10.8,0C5.9,0,5.9,0,21.8,0"/>
+    <path id="243" fill="none" transform="matrix(1,0,0,1,1611.52,366.25)" stroke-linejoin="round" stroke-linecap="round" ed:parentid="239" ed:tosuperid="242" stroke="#454545" d="M-21.8,51.9L-10.8,51.9C5.9,-51.9,5.9,-51.9,21.8,-51.9"/>
+    <path id="245" fill="none" transform="matrix(1,0,0,1,1611.52,418.15)" stroke-linejoin="round" stroke-linecap="round" ed:parentid="239" ed:tosuperid="244" stroke="#454545" d="M-10.8,0C5.9,0,5.9,0,21.8,0"/>
+    <path id="247" fill="none" transform="matrix(1,0,0,1,1611.52,470.05)" stroke-linejoin="round" stroke-linecap="round" ed:parentid="239" ed:tosuperid="246" stroke="#454545" d="M-10.8,-51.9C5.9,51.9,5.9,51.9,21.8,51.9"/>
+    <path id="249" fill="none" transform="matrix(1,0,0,1,1727.6,305.7)" stroke-linejoin="round" stroke-linecap="round" ed:parentid="242" ed:tosuperid="248" stroke="#454545" d="M-21.8,8.6L-10.8,8.6C5.9,-8.6,5.9,-8.6,21.8,-8.6"/>
+    <path id="251" fill="none" transform="matrix(1,0,0,1,1727.6,323)" stroke-linejoin="round" stroke-linecap="round" ed:parentid="242" ed:tosuperid="250" stroke="#454545" d="M-10.8,-8.6C5.9,8.6,5.9,8.6,21.8,8.6"/>
+    <path id="253" fill="none" transform="matrix(1,0,0,1,1727.6,392.2)" stroke-linejoin="round" stroke-linecap="round" ed:parentid="244" ed:tosuperid="252" stroke="#454545" d="M-21.8,26L-10.8,26C5.9,-26,5.9,-26,21.8,-26"/>
+    <path id="255" fill="none" transform="matrix(1,0,0,1,1727.6,409.5)" stroke-linejoin="round" stroke-linecap="round" ed:parentid="244" ed:tosuperid="254" stroke="#454545" d="M-10.8,8.6C5.9,-8.6,5.9,-8.6,21.8,-8.6"/>
+    <path id="257" fill="none" transform="matrix(1,0,0,1,1727.6,426.8)" stroke-linejoin="round" stroke-linecap="round" ed:parentid="244" ed:tosuperid="256" stroke="#454545" d="M-10.8,-8.6C5.9,8.6,5.9,8.6,21.8,8.6"/>
+    <path id="259" fill="none" transform="matrix(1,0,0,1,1727.6,444.1)" stroke-linejoin="round" stroke-linecap="round" ed:parentid="244" ed:tosuperid="258" stroke="#454545" d="M-10.8,-26C5.9,26,5.9,26,21.8,26"/>
+    <path id="264" fill="none" transform="matrix(1,0,0,1,1754.8,513.3)" stroke-linejoin="round" stroke-linecap="round" ed:parentid="246" ed:tosuperid="263" stroke="#454545" d="M-21.8,8.6L-10.8,8.6C5.9,-8.6,5.9,-8.6,21.8,-8.6"/>
+    <path id="266" fill="none" transform="matrix(1,0,0,1,1754.8,530.6)" stroke-linejoin="round" stroke-linecap="round" ed:parentid="246" ed:tosuperid="265" stroke="#454545" d="M-10.8,-8.6C5.9,8.6,5.9,8.6,21.8,8.6"/>
+    <path id="274" fill="none" transform="matrix(1,0,0,1,484.82,399.17)" stroke-linejoin="round" stroke-linecap="round" ed:parentid="273" ed:tosuperid="131" stroke="#454545" d="M-21.8,0L-10.8,0C5.9,0,5.9,0,21.8,0"/>
+    <path id="278" fill="none" transform="matrix(1,0,0,1,2045.74,338.87)" stroke-linejoin="round" stroke-linecap="round" ed:parentid="270" ed:tosuperid="277" stroke="#454545" d="M-21.8,30.5L-10.8,30.5C5.9,-30.5,5.9,-30.5,21.8,-30.5"/>
+    <path id="280" fill="none" transform="matrix(1,0,0,1,2045.74,382.52)" stroke-linejoin="round" stroke-linecap="round" ed:parentid="270" ed:tosuperid="279" stroke="#454545" d="M-10.8,-13.2C5.9,13.2,5.9,13.2,21.8,13.2"/>
+    <path id="282" fill="none" transform="matrix(1,0,0,1,2196.42,282.45)" stroke-linejoin="round" stroke-linecap="round" ed:parentid="277" ed:tosuperid="281" stroke="#454545" d="M-21.8,25.9L-10.8,25.9C5.9,-25.9,5.9,-25.9,21.8,-25.9"/>
+    <path id="284" fill="none" transform="matrix(1,0,0,1,2196.42,299.75)" stroke-linejoin="round" stroke-linecap="round" ed:parentid="277" ed:tosuperid="283" stroke="#454545" d="M-10.8,8.6C5.9,-8.6,5.9,-8.6,21.8,-8.6"/>
+    <path id="294" fill="none" transform="matrix(1,0,0,1,2196.42,317.05)" stroke-linejoin="round" stroke-linecap="round" ed:parentid="277" ed:tosuperid="293" stroke="#454545" d="M-10.8,-8.7C5.9,8.6,5.9,8.6,21.8,8.6"/>
+    <path id="296" fill="none" transform="matrix(1,0,0,1,2196.42,334.35)" stroke-linejoin="round" stroke-linecap="round" ed:parentid="277" ed:tosuperid="295" stroke="#454545" d="M-10.8,-26C5.9,26,5.9,26,21.8,26"/>
+    <path id="299" fill="none" transform="matrix(1,0,0,1,2045.74,399.82)" stroke-linejoin="round" stroke-linecap="round" ed:parentid="270" ed:tosuperid="298" stroke="#454545" d="M-10.8,-30.5C5.9,30.5,5.9,30.5,21.8,30.5"/>
+    <path id="307" fill="none" transform="matrix(1,0,0,1,2196.42,395.7)" stroke-linejoin="round" stroke-linecap="round" ed:parentid="279" ed:tosuperid="306" stroke="#454545" d="M-21.8,0L-10.8,0C5.9,-0,5.9,-0,21.8,-0"/>
+    <g ed:topictype="callout" id="260" transform="matrix(1,0,0,1,1479.58,533.95)" ed:width="203.928" ed:parentid="239" ed:height="35.4" ed:layout="rightmap">
+        <path fill="#ffffff" stroke-linejoin="round" stroke="#00af54" stroke-width="2" d="M17.7,0L90.4,-0L54.1,-115.8L101,0L186.2,0C196,0,203.9,7.9,203.9,17.7C203.9,27.5,196,35.4,186.2,35.4L17.7,35.4C7.9,35.4,0,27.5,0,17.7C0,7.9,7.9,0,17.7,0z"/>
+        <text class="st15">
+            <tspan style="white-space:pre" x="15" y="21.9">活度vs超额吉布斯自由能</tspan>
+        </text>
+        <g ed:hyperlink="[&#xa;    {&#xa;        &quot;desc&quot;: &quot;超链接1&quot;,&#xa;        &quot;link&quot;: &quot;https://siegenfest.github.io/ChemThermo/#/mix/li-mix/act&quot;&#xa;    }&#xa;]&#xa;">
+            <use xlink:href="#imghyperlink" transform="translate(172,10)"/>
+        </g>
+    </g>
+    <symbol id="imghyperlink">
+        <image height="16" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAERlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAA6ABAAMAAAABAAEAAKACAAQAAAABAAAAIKADAAQAAAABAAAAIAAAAACshmLzAAAFRElEQVRYCbVWa0xURxQ+dx88dlm2GgF5tEBRG+ujECLQJjUhlqQlNrG1/1qpodhawVZFsULV+shSJJooiLGCLdTEJmi0Emj80WjTphpTVmlKWxbdFYQFpDyWZReWfUzPuXhhd7nsIsIk5869M3Pm++bMme8OwBwWxtgqtItoOjQ92iW0NF8QnK/Op+lDoF0mq/PrE/Xd8lu6YXA6GaxZEgL56xe7wkJlGo7j9ovNNycEEHz/gx7b4axyPesdsnvMqVbIWOXWeO6V2OBTSOJzMRLP1Ebg97tHWVrR366lnzWxTWUPGH239drY1nMPGbUlFfzluvfQikPZyWcC83b2Bs8+o2c2u4uA+OLE1x3ftc0PCUTwWLk3+BMObF5I4OQ73cM+HbgfEhqKqEfCeIdY7BsnXTE04tRmanTyx5hwry9XwZmcOAiQ+Z7KxQDya9qhXjsIqmApa9j3EotQy9ZKxED8tBWcbOgJIPDUpSEzAqf5JMjveNYLkLFaDeYRJ1fyo5GwC2dDIPl26zDPsejdqCkrx+gAEoQW4yg/xv1BJA68F8033W61UJ0scx8ww3eOYTipeAedwD88bYDmR1aw2FxQ+E7k+EC3J5GggltJFTebCDRS6KkUX+0COyoeFXfwuPBAyFkXxre7PygPDl/u5JtSUSWxaH0SQJar0X5Aa0UzoF1Gp+s7MiPsi1Ry9nuLGfKq2qBv2DGxcgK/sD0BwkM9g0vgBRcewfV7JggJkrIvNkQS82LvKBIrviDY7kGrU3OiDrUd9xzPM6xJUMLutyNJ22/oukbXbSrTswGLg8OspsQCf+DX/hgAZaCUnd8WzyXFKY6hNO8VJYDgB+93274ibf/P7KntocEyVvUpr+13tAZLyvunDCg2Li44UAJ4tCB6gVxYA18LK/cCr8DOPCTApB6j8UMA/wA1HUPLvbosBM59Eg/Z6WFg7LfDP50j3E93TWxVrCLmYK3R0me2B0gkHLM7GNfeOwZvJqpB+iTT/IETtgcBd/B+BF+LIvMNgi9SyUCtkMJbSc+B4bENs3yEu9ZoYv0IHrUwYLQsO1b+S7OZEbmmthFIilOCdcwFRRc7oOHuoHvYJ1YuLHxiC8TAz2yJA7l0Ygjvg3kBbxxpgSGrA2jlOIZLf1l1B3MiBY8gw4h4OJDq0e8Y93wK+EQEEDwf91xDYRdWLgZOR21zhQE6+mygDJLAmJ1xN3HlactUMStigm9sTF34PF5KJDROESiF9JWhUJETy5YsDjqGYPm058LKhRpFha1Ep8bMYp2cLhMU9unABZGhbK/JS4CSq0Zvbf8IJ16PloxG51CLVorAv2EtXpBAzaHaTv6fTZeJMcfk/xz7+GKyOtiG0lZ+TMbRf1mPyc630692W+X4pWNndRu11YujTN9KQuSh7d57Tq6VP/fy8up9zsW0fXoo8R4PueI80mfSgbLfitr+cUb4FIWbzmfS2/cbRUAraLvmyqS2u7stjw6CLzdGTQGnc37kkqDtSnKhPX+qQgRK3bU9F7Vd+MH4monA93yP2t7kqe2+fMT6JJihf6LIFFXnvsgtUMrYzeYh8EdCAK9rHNf2b1HbI9Ry0vZfxUBm1IYZfEhnHGUp+5r56/WWswbRE0GZv6u6nT8RiXvoum2h7C+fEYi/Qf5I8OA18wQukPMmsfm0nqH+s46+MZZbNX7m3VZeJvjNthY9eESitct2IAvBxbT9PP87VpTjnm+fLbDgJ0qAOpHE3gGL8+jxum7ZLZ0Z6OYlXEjwOl2C4IXCJPNWI4lEtFo0PRpp7RW01+YS8H+PcPDlvDx/5gAAAABJRU5ErkJggg==" width="16"/>
+    </symbol>
+    <g ed:topictype="callout" id="305" transform="matrix(1,0,0,1,1209.72,430.15)" ed:width="258.328" ed:parentid="206" ed:height="35.4" ed:layout="rightmap">
+        <path fill="#ffffff" stroke-linejoin="round" stroke="#00af54" stroke-width="2" d="M17.7,0L112.2,-0L50.5,-107.2L124.1,0L240.6,0C250.4,0,258.3,7.9,258.3,17.7C258.3,27.5,250.4,35.4,240.6,35.4L17.7,35.4C7.9,35.4,0,27.5,0,17.7C0,7.9,7.9,0,17.7,0z"/>
+        <text class="st15">
+            <tspan style="white-space:pre" x="15" y="21.9">混合函数、超额函数、偏摩尔性质</tspan>
+        </text>
+        <g ed:hyperlink="[&#xa;    {&#xa;        &quot;desc&quot;: &quot;超链接1&quot;,&#xa;        &quot;link&quot;: &quot;https://siegenfest.github.io/ChemThermo/#/mix/mix-exc&quot;&#xa;    }&#xa;]&#xa;">
+            <use xlink:href="#imghyperlink" transform="translate(226,10)"/>
+        </g>
+    </g>
+    <g ed:topictype="mainidea" id="101" transform="matrix(1,0,0,1,23,356.79)" ed:width="104.744" ed:height="47.2" ed:layout="map">
+        <path fill="#00af54" stroke-linejoin="round" stroke="#00af54" stroke-width="3" d="M23.6,0L81.1,0C94.2,0,104.7,10.6,104.7,23.6C104.7,36.6,94.2,47.2,81.1,47.2L23.6,47.2C10.6,47.2,0,36.6,0,23.6C0,10.6,10.6,0,23.6,0z"/>
+        <text class="st16">
+            <tspan style="white-space:pre" x="21" y="27.1">化工热力学</tspan>
+        </text>
+    </g>
+    <g id="109" transform="matrix(1,0,0,1,192.84,220.29)" ed:width="133" ed:parentid="101" ed:height="32.2" ed:layout="rightmap">
+        <path fill="#ffffff" stroke-linejoin="round" stroke="#454545" stroke-width="2" d="M4,0L129,0C131.7,0,133,1.3,133,4L133,28.2C133,30.9,131.7,32.2,129,32.2L4,32.2C1.3,32.2,0,30.9,0,28.2L0,4C0,1.3,1.3,0,4,0z"/>
+        <text class="st17">
+            <tspan style="white-space:pre" x="18" y="19.6">第一基本假设</tspan>
+        </text>
+        <g ed:hyperlink="[&#xa;    {&#xa;        &quot;desc&quot;: &quot;超链接1&quot;,&#xa;        &quot;link&quot;: &quot;https://siegenfest.github.io/ChemThermo/#/basics/post&quot;&#xa;    }&#xa;]&#xa;">
+            <use xlink:href="#imghyperlink" transform="translate(98,8)"/>
+        </g>
+    </g>
+    <g id="111" transform="matrix(1,0,0,1,192.84,316.29)" ed:width="133" ed:parentid="101" ed:height="32.2" ed:layout="rightmap">
+        <path fill="#ffffff" stroke-linejoin="round" stroke="#454545" stroke-width="2" d="M4,0L129,0C131.7,0,133,1.3,133,4L133,28.2C133,30.9,131.7,32.2,129,32.2L4,32.2C1.3,32.2,0,30.9,0,28.2L0,4C0,1.3,1.3,0,4,0z"/>
+        <text class="st17">
+            <tspan style="white-space:pre" x="18" y="19.6">第二基本假设</tspan>
+        </text>
+        <g ed:hyperlink="[&#xa;    {&#xa;        &quot;desc&quot;: &quot;超链接1&quot;,&#xa;        &quot;link&quot;: &quot;https://siegenfest.github.io/ChemThermo/#/basics/post&quot;&#xa;    }&#xa;]&#xa;">
+            <use xlink:href="#imghyperlink" transform="translate(98,8)"/>
+        </g>
+    </g>
+    <g id="113" transform="matrix(1,0,0,1,192.84,412.29)" ed:width="133" ed:parentid="101" ed:height="32.2" ed:layout="rightmap">
+        <path fill="#ffffff" stroke-linejoin="round" stroke="#454545" stroke-width="2" d="M4,0L129,0C131.7,0,133,1.3,133,4L133,28.2C133,30.9,131.7,32.2,129,32.2L4,32.2C1.3,32.2,0,30.9,0,28.2L0,4C0,1.3,1.3,0,4,0z"/>
+        <text class="st17">
+            <tspan style="white-space:pre" x="18" y="19.6">第三基本假设</tspan>
+        </text>
+        <g ed:hyperlink="[&#xa;    {&#xa;        &quot;desc&quot;: &quot;超链接1&quot;,&#xa;        &quot;link&quot;: &quot;https://siegenfest.github.io/ChemThermo/#/basics/post&quot;&#xa;    }&#xa;]&#xa;">
+            <use xlink:href="#imghyperlink" transform="translate(98,8)"/>
+        </g>
+    </g>
+    <g id="127" transform="matrix(1,0,0,1,192.84,508.29)" ed:width="133" ed:parentid="101" ed:height="32.2" ed:layout="righttree">
+        <path fill="#ffffff" stroke-linejoin="round" stroke="#454545" stroke-width="2" d="M4,0L129,0C131.7,0,133,1.3,133,4L133,28.2C133,30.9,131.7,32.2,129,32.2L4,32.2C1.3,32.2,0,30.9,0,28.2L0,4C0,1.3,1.3,0,4,0z"/>
+        <text class="st17">
+            <tspan style="white-space:pre" x="18" y="19.6">第四基本假设</tspan>
+        </text>
+        <g ed:hyperlink="[&#xa;    {&#xa;        &quot;desc&quot;: &quot;超链接1&quot;,&#xa;        &quot;link&quot;: &quot;https://siegenfest.github.io/ChemThermo/#/basics/post&quot;&#xa;    }&#xa;]&#xa;">
+            <use xlink:href="#imghyperlink" transform="translate(98,8)"/>
+        </g>
+    </g>
+    <g id="129" transform="matrix(1,0,0,1,278.45,556.54)" ed:width="102" ed:parentid="127" ed:height="21.5" ed:layout="righttree">
+        <path fill="#ffffff" d="M0,0L102,0L102,21.5L0,21.5L0,0z"/>
+        <path fill="none" stroke-linejoin="round" stroke="#454545" d="M0,21.5L102,21.5"/>
+        <text class="st18">
+            <tspan style="white-space:pre" x="8" y="14.5">热力学第零定律</tspan>
+        </text>
+    </g>
+    <g id="131" transform="matrix(1,0,0,1,506.66,375.27)" ed:width="113.2" ed:parentid="273" ed:height="23.9">
+        <path fill="#ffffff" d="M0,0L113.2,0L113.2,23.9L0,23.9L0,0z"/>
+        <path fill="none" stroke-linejoin="round" stroke="#454545" d="M0,23.9L113.2,23.9"/>
+        <text class="st19">
+            <tspan style="white-space:pre" x="8" y="16.1">热力学四大定律</tspan>
+        </text>
+    </g>
+    <g id="141" transform="matrix(1,0,0,1,655.35,135.89)" ed:width="134.2" ed:parentid="131" ed:height="23.9">
+        <path fill="#ffffff" d="M0,0L134.2,0L134.2,23.9L0,23.9L0,0z"/>
+        <path fill="none" stroke-linejoin="round" stroke="#454545" d="M0,23.9L134.2,23.9"/>
+        <text class="st19">
+            <tspan style="white-space:pre" x="8" y="16.1">热力学第一定律</tspan>
+        </text>
+        <g ed:hyperlink="[&#xa;    {&#xa;        &quot;desc&quot;: &quot;超链接1&quot;,&#xa;        &quot;link&quot;: &quot;https://siegenfest.github.io/ChemThermo/#/basics/laws/firstlaw&quot;&#xa;    }&#xa;]&#xa;">
+            <use xlink:href="#imghyperlink" transform="translate(109,4)"/>
+        </g>
+    </g>
+    <g id="143" transform="matrix(1,0,0,1,655.35,170.49)" ed:width="134.2" ed:parentid="131" ed:height="23.9">
+        <path fill="#ffffff" d="M0,0L134.2,0L134.2,23.9L0,23.9L0,0z"/>
+        <path fill="none" stroke-linejoin="round" stroke="#454545" d="M0,23.9L134.2,23.9"/>
+        <text class="st19">
+            <tspan style="white-space:pre" x="8" y="16.1">热力学第二定律</tspan>
+        </text>
+        <g ed:hyperlink="[&#xa;    {&#xa;        &quot;desc&quot;: &quot;超链接1&quot;,&#xa;        &quot;link&quot;: &quot;https://siegenfest.github.io/ChemThermo/#/basics/laws/secondlaw&quot;&#xa;    }&#xa;]&#xa;">
+            <use xlink:href="#imghyperlink" transform="translate(109,4)"/>
+        </g>
+    </g>
+    <g id="145" transform="matrix(1,0,0,1,655.35,580.05)" ed:width="134.2" ed:parentid="131" ed:height="23.9">
+        <path fill="#ffffff" d="M0,0L134.2,0L134.2,23.9L0,23.9L0,0z"/>
+        <path fill="none" stroke-linejoin="round" stroke="#454545" d="M0,23.9L134.2,23.9"/>
+        <text class="st19">
+            <tspan style="white-space:pre" x="8" y="16.1">热力学第三定律</tspan>
+        </text>
+        <g ed:hyperlink="[&#xa;    {&#xa;        &quot;desc&quot;: &quot;超链接1&quot;,&#xa;        &quot;link&quot;: &quot;https://siegenfest.github.io/ChemThermo/#/basics/laws/thirdlaw&quot;&#xa;    }&#xa;]&#xa;">
+            <use xlink:href="#imghyperlink" transform="translate(109,4)"/>
+        </g>
+    </g>
+    <g id="147" transform="matrix(1,0,0,1,655.35,614.65)" ed:width="113.2" ed:parentid="131" ed:height="23.9">
+        <path fill="#ffffff" d="M0,0L113.2,0L113.2,23.9L0,23.9L0,0z"/>
+        <path fill="none" stroke-linejoin="round" stroke="#454545" d="M0,23.9L113.2,23.9"/>
+        <text class="st19">
+            <tspan style="white-space:pre" x="8" y="16.1">热力学第零定律</tspan>
+        </text>
+    </g>
+    <g id="159" transform="matrix(1,0,0,1,815.55,150.44)" ed:width="159.128" ed:parentid="158" ed:height="29.4" ed:layout="rightmap">
+        <path fill="#ffffff" stroke-linejoin="round" stroke="#00af54" stroke-width="2" d="M14.7,0L144.4,0C152.5,0,159.1,6.6,159.1,14.7C159.1,22.8,152.5,29.4,144.4,29.4L14.7,29.4C6.6,29.4,0,22.8,0,14.7C0,6.6,6.6,0,14.7,0z"/>
+        <text class="st15">
+            <tspan style="white-space:pre" x="13" y="19">热力学基本关系式</tspan>
+        </text>
+        <g ed:hyperlink="[&#xa;    {&#xa;        &quot;desc&quot;: &quot;超链接1&quot;,&#xa;        &quot;link&quot;: &quot;https://siegenfest.github.io/ChemThermo/#/basics/functions&quot;&#xa;    }&#xa;]&#xa;">
+            <use xlink:href="#imghyperlink" transform="translate(129,7)"/>
+        </g>
+    </g>
+    <g id="172" transform="matrix(1,0,0,1,1018.36,141.24)" ed:width="45.2" ed:parentid="159" ed:height="23.9">
+        <path fill="#ffffff" d="M0,0L45.2,0L45.2,23.9L0,23.9L0,0z"/>
+        <path fill="none" stroke-linejoin="round" stroke="#454545" d="M0,23.9L45.2,23.9"/>
+        <text class="st19">
+            <tspan style="white-space:pre" x="8" y="16.1">应用</tspan>
+        </text>
+    </g>
+    <g id="178" transform="matrix(1,0,0,1,1107.24,65.55)" ed:width="58.8" ed:parentid="172" ed:height="23.9">
+        <path fill="#ffffff" d="M0,0L58.8,0L58.8,23.9L0,23.9L0,0z"/>
+        <path fill="none" stroke-linejoin="round" stroke="#454545" d="M0,23.9L58.8,23.9"/>
+        <text class="st19">
+            <tspan style="white-space:pre" x="8" y="16.1">纯物质</tspan>
+        </text>
+    </g>
+    <g id="180" transform="matrix(1,0,0,1,1107.24,216.93)" ed:width="58.8" ed:parentid="172" ed:height="23.9">
+        <path fill="#ffffff" d="M0,0L58.8,0L58.8,23.9L0,23.9L0,0z"/>
+        <path fill="none" stroke-linejoin="round" stroke="#454545" d="M0,23.9L58.8,23.9"/>
+        <text class="st19">
+            <tspan style="white-space:pre" x="8" y="16.1">混合物</tspan>
+        </text>
+    </g>
+    <g id="186" transform="matrix(1,0,0,1,1209.72,30.95)" ed:width="93.40000000000001" ed:parentid="178" ed:height="23.9">
+        <path fill="#ffffff" d="M0,0L93.4,0L93.4,23.9L0,23.9L0,0z"/>
+        <path fill="none" stroke-linejoin="round" stroke="#454545" d="M0,23.9L93.4,23.9"/>
+        <text class="st19">
+            <tspan style="white-space:pre" x="8" y="16.1">理想气体</tspan>
+        </text>
+        <g ed:hyperlink="[&#xa;    {&#xa;        &quot;desc&quot;: &quot;超链接1&quot;,&#xa;        &quot;link&quot;: &quot;https://siegenfest.github.io/ChemThermo/#/fund/bas-con/ig&quot;&#xa;    }&#xa;]&#xa;">
+            <use xlink:href="#imghyperlink" transform="translate(68,4)"/>
+        </g>
+    </g>
+    <g id="188" transform="matrix(1,0,0,1,1209.72,65.55)" ed:width="93.40000000000001" ed:parentid="178" ed:height="23.9">
+        <path fill="#ffffff" d="M0,0L93.4,0L93.4,23.9L0,23.9L0,0z"/>
+        <path fill="none" stroke-linejoin="round" stroke="#454545" d="M0,23.9L93.4,23.9"/>
+        <text class="st19">
+            <tspan style="white-space:pre" x="8" y="16.1">真实气体</tspan>
+        </text>
+        <g ed:hyperlink="[&#xa;    {&#xa;        &quot;desc&quot;: &quot;超链接1&quot;,&#xa;        &quot;link&quot;: &quot;https://siegenfest.github.io/ChemThermo/#/pu-sub/real-gas/intro&quot;&#xa;    },&#xa;    {&#xa;        &quot;desc&quot;: &quot;超链接2&quot;,&#xa;        &quot;link&quot;: &quot;https://siegenfest.github.io/ChemThermo/#/pu-sub/real-gas/mul-para&quot;&#xa;    },&#xa;    {&#xa;        &quot;desc&quot;: &quot;超链接3&quot;,&#xa;        &quot;link&quot;: &quot;https://siegenfest.github.io/ChemThermo/#/pu-sub/real-gas/cubic-eq&quot;&#xa;    },&#xa;    {&#xa;        &quot;desc&quot;: &quot;超链接4&quot;,&#xa;        &quot;link&quot;: &quot;https://siegenfest.github.io/ChemThermo/#/pu-sub/real-gas/corre&quot;&#xa;    }&#xa;]&#xa;">
+            <use xlink:href="#imghyperlink" transform="translate(68,4)"/>
+        </g>
+    </g>
+    <g id="190" transform="matrix(1,0,0,1,1209.72,100.15)" ed:width="79.8" ed:parentid="178" ed:height="23.9">
+        <path fill="#ffffff" d="M0,0L79.8,0L79.8,23.9L0,23.9L0,0z"/>
+        <path fill="none" stroke-linejoin="round" stroke="#454545" d="M0,23.9L79.8,23.9"/>
+        <text class="st19">
+            <tspan style="white-space:pre" x="8" y="16.1">纯液体</tspan>
+        </text>
+        <g ed:hyperlink="[&#xa;    {&#xa;        &quot;desc&quot;: &quot;超链接1&quot;,&#xa;        &quot;link&quot;: &quot;https://siegenfest.github.io/ChemThermo/#/pu-sub/pure-liquid&quot;&#xa;    }&#xa;]&#xa;">
+            <use xlink:href="#imghyperlink" transform="translate(55,4)"/>
+        </g>
+    </g>
+    <g id="193" transform="matrix(1,0,0,1,1329.12,45.5)" ed:width="56.528" ed:parentid="192" ed:height="29.4" ed:layout="rightmap">
+        <path fill="#ffffff" stroke-linejoin="round" stroke="#00af54" stroke-width="2" d="M14.7,0L41.8,0C49.9,0,56.5,6.6,56.5,14.7C56.5,22.8,49.9,29.4,41.8,29.4L14.7,29.4C6.6,29.4,0,22.8,0,14.7C0,6.6,6.6,0,14.7,0z"/>
+        <text class="st15">
+            <tspan style="white-space:pre" x="13" y="19">对比</tspan>
+        </text>
+    </g>
+    <g id="194" transform="matrix(1,0,0,1,1429.33,19)" ed:width="93.40000000000001" ed:parentid="193" ed:height="23.9">
+        <path fill="#ffffff" d="M0,0L93.4,0L93.4,23.9L0,23.9L0,0z"/>
+        <path fill="none" stroke-linejoin="round" stroke="#454545" d="M0,23.9L93.4,23.9"/>
+        <text class="st19">
+            <tspan style="white-space:pre" x="8" y="16.1">剩余性质</tspan>
+        </text>
+        <g ed:hyperlink="[&#xa;    {&#xa;        &quot;desc&quot;: &quot;超链接1&quot;,&#xa;        &quot;link&quot;: &quot;https://siegenfest.github.io/ChemThermo/#/pu-sub/resi-func&quot;&#xa;    }&#xa;]&#xa;">
+            <use xlink:href="#imghyperlink" transform="translate(68,4)"/>
+        </g>
+    </g>
+    <g id="196" transform="matrix(1,0,0,1,1429.33,53.6)" ed:width="66.2" ed:parentid="193" ed:height="23.9">
+        <path fill="#ffffff" d="M0,0L66.2,0L66.2,23.9L0,23.9L0,0z"/>
+        <path fill="none" stroke-linejoin="round" stroke="#454545" d="M0,23.9L66.2,23.9"/>
+        <text class="st19">
+            <tspan style="white-space:pre" x="8" y="16.1">逸度</tspan>
+        </text>
+        <g ed:hyperlink="[&#xa;    {&#xa;        &quot;desc&quot;: &quot;超链接1&quot;,&#xa;        &quot;link&quot;: &quot;https://siegenfest.github.io/ChemThermo/#/pu-sub/fugacity&quot;&#xa;    }&#xa;]&#xa;">
+            <use xlink:href="#imghyperlink" transform="translate(41,4)"/>
+        </g>
+    </g>
+    <g id="204" transform="matrix(1,0,0,1,1209.72,134.75)" ed:width="107" ed:parentid="180" ed:height="23.9">
+        <path fill="#ffffff" d="M0,0L107,0L107,23.9L0,23.9L0,0z"/>
+        <path fill="none" stroke-linejoin="round" stroke="#454545" d="M0,23.9L107,23.9"/>
+        <text class="st19">
+            <tspan style="white-space:pre" x="8" y="16.1">理想混合物</tspan>
+        </text>
+        <g ed:hyperlink="[&#xa;    {&#xa;        &quot;desc&quot;: &quot;超链接1&quot;,&#xa;        &quot;link&quot;: &quot;https://siegenfest.github.io/ChemThermo/#/fund/bas-con/is&quot;&#xa;    },&#xa;    {&#xa;        &quot;desc&quot;: &quot;超链接2&quot;,&#xa;        &quot;link&quot;: &quot;https://siegenfest.github.io/ChemThermo/#/mix/id-so&quot;&#xa;    }&#xa;]&#xa;">
+            <use xlink:href="#imghyperlink" transform="translate(82,4)"/>
+        </g>
+    </g>
+    <g id="206" transform="matrix(1,0,0,1,1209.72,299.1)" ed:width="86" ed:parentid="180" ed:height="23.9">
+        <path fill="#ffffff" d="M0,0L86,0L86,23.9L0,23.9L0,0z"/>
+        <path fill="none" stroke-linejoin="round" stroke="#454545" d="M0,23.9L86,23.9"/>
+        <text class="st19">
+            <tspan style="white-space:pre" x="8" y="16.1">真实混合物</tspan>
+        </text>
+    </g>
+    <g id="208" transform="matrix(1,0,0,1,1339.4,203.95)" ed:width="86" ed:parentid="206" ed:height="23.9">
+        <path fill="#ffffff" d="M0,0L86,0L86,23.9L0,23.9L0,0z"/>
+        <path fill="none" stroke-linejoin="round" stroke="#454545" d="M0,23.9L86,23.9"/>
+        <text class="st19">
+            <tspan style="white-space:pre" x="8" y="16.1">气体混合物</tspan>
+        </text>
+    </g>
+    <g id="210" transform="matrix(1,0,0,1,1339.4,394.25)" ed:width="86" ed:parentid="206" ed:height="23.9">
+        <path fill="#ffffff" d="M0,0L86,0L86,23.9L0,23.9L0,0z"/>
+        <path fill="none" stroke-linejoin="round" stroke="#454545" d="M0,23.9L86,23.9"/>
+        <text class="st19">
+            <tspan style="white-space:pre" x="8" y="16.1">液体混合物</tspan>
+        </text>
+    </g>
+    <g id="212" transform="matrix(1,0,0,1,1469.08,203.95)" ed:width="93.40000000000001" ed:parentid="208" ed:height="23.9">
+        <path fill="#ffffff" d="M0,0L93.4,0L93.4,23.9L0,23.9L0,0z"/>
+        <path fill="none" stroke-linejoin="round" stroke="#454545" d="M0,23.9L93.4,23.9"/>
+        <text class="st19">
+            <tspan style="white-space:pre" x="8" y="16.1">混合规则</tspan>
+        </text>
+        <g ed:hyperlink="[&#xa;    {&#xa;        &quot;desc&quot;: &quot;超链接1&quot;,&#xa;        &quot;link&quot;: &quot;https://siegenfest.github.io/ChemThermo/#/mix/m-gas/m-rule&quot;&#xa;    }&#xa;]&#xa;">
+            <use xlink:href="#imghyperlink" transform="translate(68,4)"/>
+        </g>
+    </g>
+    <g id="227" transform="matrix(1,0,0,1,1606.16,169.35)" ed:width="95.59999999999999" ed:parentid="212" ed:height="23.9">
+        <path fill="#ffffff" d="M0,0L95.6,0L95.6,23.9L0,23.9L0,0z"/>
+        <path fill="none" stroke-linejoin="round" stroke="#454545" d="M0,23.9L95.6,23.9"/>
+        <text class="st19">
+            <tspan style="white-space:pre" x="8" y="16.1">Amagat定律</tspan>
+        </text>
+    </g>
+    <g id="229" transform="matrix(1,0,0,1,1606.16,203.95)" ed:width="88.40000000000001" ed:parentid="212" ed:height="23.9">
+        <path fill="#ffffff" d="M0,0L88.4,0L88.4,23.9L0,23.9L0,0z"/>
+        <path fill="none" stroke-linejoin="round" stroke="#454545" d="M0,23.9L88.4,23.9"/>
+        <text class="st19">
+            <tspan style="white-space:pre" x="8" y="16.1">Dalton定律</tspan>
+        </text>
+    </g>
+    <g id="231" transform="matrix(1,0,0,1,1606.16,238.55)" ed:width="102" ed:parentid="212" ed:height="23.9">
+        <path fill="#ffffff" d="M0,0L102,0L102,23.9L0,23.9L0,0z"/>
+        <path fill="none" stroke-linejoin="round" stroke="#454545" d="M0,23.9L102,23.9"/>
+        <text class="st19">
+            <tspan style="white-space:pre" x="8" y="16.1">vdW混合规则</tspan>
+        </text>
+    </g>
+    <g id="234" transform="matrix(1,0,0,1,1734.16,201.2)" ed:width="83.72799999999999" ed:parentid="233" ed:height="29.4" ed:layout="rightmap">
+        <path fill="#ffffff" stroke-linejoin="round" stroke="#00af54" stroke-width="2" d="M14.7,0L69,0C77.1,0,83.7,6.6,83.7,14.7C83.7,22.8,77.1,29.4,69,29.4L14.7,29.4C6.6,29.4,0,22.8,0,14.7C0,6.6,6.6,0,14.7,0z"/>
+        <text class="st15">
+            <tspan style="white-space:pre" x="13" y="19">状态方程</tspan>
+        </text>
+    </g>
+    <g id="235" transform="matrix(1,0,0,1,1861.57,192)" ed:width="66.2" ed:parentid="234" ed:height="23.9">
+        <path fill="#ffffff" d="M0,0L66.2,0L66.2,23.9L0,23.9L0,0z"/>
+        <path fill="none" stroke-linejoin="round" stroke="#454545" d="M0,23.9L66.2,23.9"/>
+        <text class="st19">
+            <tspan style="white-space:pre" x="8" y="16.1">逸度</tspan>
+        </text>
+        <g ed:hyperlink="[&#xa;    {&#xa;        &quot;desc&quot;: &quot;超链接1&quot;,&#xa;        &quot;link&quot;: &quot;https://siegenfest.github.io/ChemThermo/#/mix/m-gas/mg-fu&quot;&#xa;    }&#xa;]&#xa;">
+            <use xlink:href="#imghyperlink" transform="translate(41,4)"/>
+        </g>
+    </g>
+    <g id="239" transform="matrix(1,0,0,1,1469.08,394.25)" ed:width="120.6" ed:parentid="210" ed:height="23.9">
+        <path fill="#ffffff" d="M0,0L120.6,0L120.6,23.9L0,23.9L0,0z"/>
+        <path fill="none" stroke-linejoin="round" stroke="#454545" d="M0,23.9L120.6,23.9"/>
+        <text class="st19">
+            <tspan style="white-space:pre" x="8" y="16.1">活度系数模型</tspan>
+        </text>
+        <g ed:hyperlink="[&#xa;    {&#xa;        &quot;desc&quot;: &quot;超链接1&quot;,&#xa;        &quot;link&quot;: &quot;https://siegenfest.github.io/ChemThermo/#/mix/li-mix/act-mo&quot;&#xa;    }&#xa;]&#xa;">
+            <use xlink:href="#imghyperlink" transform="translate(96,4)"/>
+        </g>
+    </g>
+    <g id="242" transform="matrix(1,0,0,1,1633.36,290.45)" ed:width="72.40000000000001" ed:parentid="239" ed:height="23.9">
+        <path fill="#ffffff" d="M0,0L72.4,0L72.4,23.9L0,23.9L0,0z"/>
+        <path fill="none" stroke-linejoin="round" stroke="#454545" d="M0,23.9L72.4,23.9"/>
+        <text class="st19">
+            <tspan style="white-space:pre" x="8" y="16.1">理论模型</tspan>
+        </text>
+    </g>
+    <g id="244" transform="matrix(1,0,0,1,1633.36,394.25)" ed:width="72.40000000000001" ed:parentid="239" ed:height="23.9">
+        <path fill="#ffffff" d="M0,0L72.4,0L72.4,23.9L0,23.9L0,0z"/>
+        <path fill="none" stroke-linejoin="round" stroke="#454545" d="M0,23.9L72.4,23.9"/>
+        <text class="st19">
+            <tspan style="white-space:pre" x="8" y="16.1">经验模型</tspan>
+        </text>
+    </g>
+    <g id="246" transform="matrix(1,0,0,1,1633.36,498.05)" ed:width="99.59999999999999" ed:parentid="239" ed:height="23.9">
+        <path fill="#ffffff" d="M0,0L99.6,0L99.6,23.9L0,23.9L0,0z"/>
+        <path fill="none" stroke-linejoin="round" stroke="#454545" d="M0,23.9L99.6,23.9"/>
+        <text class="st19">
+            <tspan style="white-space:pre" x="8" y="16.1">基团贡献模型</tspan>
+        </text>
+    </g>
+    <g id="248" transform="matrix(1,0,0,1,1749.44,273.15)" ed:width="131.6" ed:parentid="242" ed:height="23.9">
+        <path fill="#ffffff" d="M0,0L131.6,0L131.6,23.9L0,23.9L0,0z"/>
+        <path fill="none" stroke-linejoin="round" stroke="#454545" d="M0,23.9L131.6,23.9"/>
+        <text class="st19">
+            <tspan style="white-space:pre" x="8" y="16.1">正规溶液：SH模型</tspan>
+        </text>
+    </g>
+    <g id="250" transform="matrix(1,0,0,1,1749.44,307.75)" ed:width="144.4" ed:parentid="242" ed:height="23.9">
+        <path fill="#ffffff" d="M0,0L144.4,0L144.4,23.9L0,23.9L0,0z"/>
+        <path fill="none" stroke-linejoin="round" stroke="#454545" d="M0,23.9L144.4,23.9"/>
+        <text class="st19">
+            <tspan style="white-space:pre" x="8" y="16.1">高聚物溶液：FH模型</tspan>
+        </text>
+    </g>
+    <g id="252" transform="matrix(1,0,0,1,1749.44,342.35)" ed:width="79.59999999999999" ed:parentid="244" ed:height="23.9">
+        <path fill="#ffffff" d="M0,0L79.6,0L79.6,23.9L0,23.9L0,0z"/>
+        <path fill="none" stroke-linejoin="round" stroke="#454545" d="M0,23.9L79.6,23.9"/>
+        <text class="st19">
+            <tspan style="white-space:pre" x="8" y="16.1">Wohl模型</tspan>
+        </text>
+    </g>
+    <g id="254" transform="matrix(1,0,0,1,1749.44,376.95)" ed:width="90" ed:parentid="244" ed:height="23.9">
+        <path fill="#ffffff" d="M0,0L90,0L90,23.9L0,23.9L0,0z"/>
+        <path fill="none" stroke-linejoin="round" stroke="#454545" d="M0,23.9L90,23.9"/>
+        <text class="st19">
+            <tspan style="white-space:pre" x="8" y="16.1">Wilson模型</tspan>
+        </text>
+    </g>
+    <g id="256" transform="matrix(1,0,0,1,1749.44,411.55)" ed:width="80.40000000000001" ed:parentid="244" ed:height="23.9">
+        <path fill="#ffffff" d="M0,0L80.4,0L80.4,23.9L0,23.9L0,0z"/>
+        <path fill="none" stroke-linejoin="round" stroke="#454545" d="M0,23.9L80.4,23.9"/>
+        <text class="st19">
+            <tspan style="white-space:pre" x="8" y="16.1">NRTL模型</tspan>
+        </text>
+    </g>
+    <g id="258" transform="matrix(1,0,0,1,1749.44,446.15)" ed:width="73.2" ed:parentid="244" ed:height="23.9">
+        <path fill="#ffffff" d="M0,0L73.2,0L73.2,23.9L0,23.9L0,0z"/>
+        <path fill="none" stroke-linejoin="round" stroke="#454545" d="M0,23.9L73.2,23.9"/>
+        <text class="st19">
+            <tspan style="white-space:pre" x="8" y="16.1">UNIQAC</tspan>
+        </text>
+    </g>
+    <g id="263" transform="matrix(1,0,0,1,1776.64,480.75)" ed:width="57.2" ed:parentid="246" ed:height="23.9">
+        <path fill="#ffffff" d="M0,0L57.2,0L57.2,23.9L0,23.9L0,0z"/>
+        <path fill="none" stroke-linejoin="round" stroke="#454545" d="M0,23.9L57.2,23.9"/>
+        <text class="st19">
+            <tspan style="white-space:pre" x="8" y="16.1">ASOG</tspan>
+        </text>
+    </g>
+    <g id="265" transform="matrix(1,0,0,1,1776.64,515.35)" ed:width="69.2" ed:parentid="246" ed:height="23.9">
+        <path fill="#ffffff" d="M0,0L69.2,0L69.2,23.9L0,23.9L0,0z"/>
+        <path fill="none" stroke-linejoin="round" stroke="#454545" d="M0,23.9L69.2,23.9"/>
+        <text class="st19">
+            <tspan style="white-space:pre" x="8" y="16.1">UNIFAC</tspan>
+        </text>
+    </g>
+    <g id="270" transform="matrix(1,0,0,1,1953.77,354.65)" ed:width="70.128" ed:parentid="269" ed:height="29.4" ed:layout="rightmap">
+        <path fill="#ffffff" stroke-linejoin="round" stroke="#00af54" stroke-width="2" d="M14.7,0L55.4,0C63.5,0,70.1,6.6,70.1,14.7C70.1,22.8,63.5,29.4,55.4,29.4L14.7,29.4C6.6,29.4,0,22.8,0,14.7C0,6.6,6.6,0,14.7,0z"/>
+        <text class="st15">
+            <tspan style="white-space:pre" x="13" y="19">相平衡</tspan>
+        </text>
+    </g>
+    <g id="273" transform="matrix(1,0,0,1,406.45,384.47)" ed:width="56.528" ed:parentid="272" ed:height="29.4" ed:layout="rightmap">
+        <path fill="#ffffff" stroke-linejoin="round" stroke="#00af54" stroke-width="2" d="M14.7,0L41.8,0C49.9,0,56.5,6.6,56.5,14.7C56.5,22.8,49.9,29.4,41.8,29.4L14.7,29.4C6.6,29.4,0,22.8,0,14.7C0,6.6,6.6,0,14.7,0z"/>
+        <text class="st15">
+            <tspan style="white-space:pre" x="13" y="19">推导</tspan>
+        </text>
+    </g>
+    <g ed:topictype="floating" id="275" transform="matrix(1,0,0,1,822.58,223.95)" ed:width="141" ed:height="38.6" ed:layout="rightmap">
+        <path fill="#ffffff" stroke-linejoin="round" stroke="#00af54" stroke-width="2" d="M4,0L137,0C139.7,0,141,1.3,141,4L141,34.6C141,37.3,139.7,38.6,137,38.6L4,38.6C1.3,38.6,0,37.3,0,34.6L0,4C0,1.3,1.3,0,4,0z"/>
+        <text class="st20">
+            <tspan style="white-space:pre" x="18" y="24.3">热力学函数</tspan>
+        </text>
+        <g ed:hyperlink="[&#xa;    {&#xa;        &quot;desc&quot;: &quot;超链接1&quot;,&#xa;        &quot;link&quot;: &quot;https://siegenfest.github.io/ChemThermo/#/basics/functions&quot;&#xa;    }&#xa;]&#xa;">
+            <use xlink:href="#imghyperlink" transform="translate(106,11)"/>
+        </g>
+    </g>
+    <g id="277" transform="matrix(1,0,0,1,2067.58,284.5)" ed:width="107" ed:parentid="270" ed:height="23.9">
+        <path fill="#ffffff" d="M0,0L107,0L107,23.9L0,23.9L0,0z"/>
+        <path fill="none" stroke-linejoin="round" stroke="#454545" d="M0,23.9L107,23.9"/>
+        <text class="st19">
+            <tspan style="white-space:pre" x="8" y="16.1">相平衡判据</tspan>
+        </text>
+        <g ed:hyperlink="[&#xa;    {&#xa;        &quot;desc&quot;: &quot;超链接1&quot;,&#xa;        &quot;link&quot;: &quot;https://siegenfest.github.io/ChemThermo/#/phase-equi/sta&quot;&#xa;    }&#xa;]&#xa;">
+            <use xlink:href="#imghyperlink" transform="translate(82,4)"/>
+        </g>
+    </g>
+    <g id="279" transform="matrix(1,0,0,1,2067.58,371)" ed:width="107" ed:parentid="270" ed:height="24.7">
+        <path fill="#ffffff" d="M0,0L107,0L107,24.7L0,24.7L0,0z"/>
+        <path fill="none" stroke-linejoin="round" stroke="#454545" d="M0,24.7L107,24.7"/>
+        <text class="st21">
+            <tspan style="white-space:pre" x="8" y="18.4">平衡与稳定</tspan>
+        </text>
+        <g ed:hyperlink="[&#xa;    {&#xa;        &quot;desc&quot;: &quot;超链接1&quot;,&#xa;        &quot;link&quot;: &quot;https://siegenfest.github.io/ChemThermo/#/phase-equi/sta&quot;&#xa;    }&#xa;]&#xa;">
+            <use xlink:href="#imghyperlink" transform="translate(82,4)"/>
+        </g>
+    </g>
+    <g id="281" transform="matrix(1,0,0,1,2218.26,232.6)" ed:width="161.4" ed:parentid="277" ed:height="23.9">
+        <path fill="#ffffff" d="M0,0L161.4,0L161.4,23.9L0,23.9L0,0z"/>
+        <path fill="none" stroke-linejoin="round" stroke="#454545" d="M0,23.9L161.4,23.9"/>
+        <text class="st19">
+            <tspan style="white-space:pre" x="8" y="16.1">互溶体系汽液相平衡</tspan>
+        </text>
+        <g ed:hyperlink="[&#xa;    {&#xa;        &quot;desc&quot;: &quot;超链接1&quot;,&#xa;        &quot;link&quot;: &quot;https://siegenfest.github.io/ChemThermo/#/phase-equi/li-gas&quot;&#xa;    }&#xa;]&#xa;">
+            <use xlink:href="#imghyperlink" transform="translate(136,4)"/>
+        </g>
+    </g>
+    <g id="283" transform="matrix(1,0,0,1,2218.26,267.2)" ed:width="93.40000000000001" ed:parentid="277" ed:height="23.9">
+        <path fill="#ffffff" d="M0,0L93.4,0L93.4,23.9L0,23.9L0,0z"/>
+        <path fill="none" stroke-linejoin="round" stroke="#454545" d="M0,23.9L93.4,23.9"/>
+        <text class="st19">
+            <tspan style="white-space:pre" x="8" y="16.1">液液平衡</tspan>
+        </text>
+        <g ed:hyperlink="[&#xa;    {&#xa;        &quot;desc&quot;: &quot;超链接1&quot;,&#xa;        &quot;link&quot;: &quot;https://siegenfest.github.io/ChemThermo/#/phase-equi/oth-eq&quot;&#xa;    }&#xa;]&#xa;">
+            <use xlink:href="#imghyperlink" transform="translate(68,4)"/>
+        </g>
+    </g>
+    <g id="293" transform="matrix(1,0,0,1,2218.26,301.8)" ed:width="93.40000000000001" ed:parentid="277" ed:height="23.9">
+        <path fill="#ffffff" d="M0,0L93.4,0L93.4,23.9L0,23.9L0,0z"/>
+        <path fill="none" stroke-linejoin="round" stroke="#454545" d="M0,23.9L93.4,23.9"/>
+        <text class="st19">
+            <tspan style="white-space:pre" x="8" y="16.1">升华平衡</tspan>
+        </text>
+        <g ed:hyperlink="[&#xa;    {&#xa;        &quot;desc&quot;: &quot;超链接1&quot;,&#xa;        &quot;link&quot;: &quot;https://siegenfest.github.io/ChemThermo/#/phase-equi/oth-eq&quot;&#xa;    }&#xa;]&#xa;">
+            <use xlink:href="#imghyperlink" transform="translate(68,4)"/>
+        </g>
+    </g>
+    <g id="295" transform="matrix(1,0,0,1,2218.26,336.4)" ed:width="93.40000000000001" ed:parentid="277" ed:height="23.9">
+        <path fill="#ffffff" d="M0,0L93.4,0L93.4,23.9L0,23.9L0,0z"/>
+        <path fill="none" stroke-linejoin="round" stroke="#454545" d="M0,23.9L93.4,23.9"/>
+        <text class="st19">
+            <tspan style="white-space:pre" x="8" y="16.1">固液平衡</tspan>
+        </text>
+        <g ed:hyperlink="[&#xa;    {&#xa;        &quot;desc&quot;: &quot;超链接1&quot;,&#xa;        &quot;link&quot;: &quot;https://siegenfest.github.io/ChemThermo/#/phase-equi/oth-eq&quot;&#xa;    }&#xa;]&#xa;">
+            <use xlink:href="#imghyperlink" transform="translate(68,4)"/>
+        </g>
+    </g>
+    <g id="298" transform="matrix(1,0,0,1,2067.58,406.4)" ed:width="147.8" ed:parentid="270" ed:height="23.9">
+        <path fill="#ffffff" d="M0,0L147.8,0L147.8,23.9L0,23.9L0,0z"/>
+        <path fill="none" stroke-linejoin="round" stroke="#454545" d="M0,23.9L147.8,23.9"/>
+        <text class="st19">
+            <tspan style="white-space:pre" x="8" y="16.1">热力学一致性校验</tspan>
+        </text>
+        <g ed:hyperlink="[&#xa;    {&#xa;        &quot;desc&quot;: &quot;超链接1&quot;,&#xa;        &quot;link&quot;: &quot;https://siegenfest.github.io/ChemThermo/#/phase-equi/li-gas&quot;&#xa;    }&#xa;]&#xa;">
+            <use xlink:href="#imghyperlink" transform="translate(123,4)"/>
+        </g>
+    </g>
+    <g ed:topictype="floating" id="300" transform="matrix(1,0,0,1,1972.13,461.66)" ed:width="196.2" ed:height="38.6" ed:layout="rightmap">
+        <path fill="#ffffff" stroke-linejoin="round" stroke="#00af54" stroke-width="2" d="M4,0L192.2,0C194.9,0,196.2,1.3,196.2,4L196.2,34.6C196.2,37.3,194.9,38.6,192.2,38.6L4,38.6C1.3,38.6,0,37.3,0,34.6L0,4C0,1.3,1.3,0,4,0z"/>
+        <text class="st20">
+            <tspan style="white-space:pre" x="18" y="24.3">吉布斯-杜亥姆方程</tspan>
+        </text>
+        <g ed:hyperlink="[&#xa;    {&#xa;        &quot;desc&quot;: &quot;超链接1&quot;,&#xa;        &quot;link&quot;: &quot;https://siegenfest.github.io/ChemThermo/#/mix/mix-exc&quot;&#xa;    }&#xa;]&#xa;">
+            <use xlink:href="#imghyperlink" transform="translate(161,11)"/>
+        </g>
+    </g>
+    <g id="306" transform="matrix(1,0,0,1,2218.26,371.8)" ed:width="85.2" ed:parentid="279" ed:height="23.9">
+        <path fill="#ffffff" d="M0,0L85.2,0L85.2,23.9L0,23.9L0,0z"/>
+        <path fill="none" stroke-linejoin="round" stroke="#454545" d="M0,23.9L85.2,23.9"/>
+        <g transform="translate(7,2.95)">
+            <use xlink:href="#imgarrow4" transform="translate(0,0)"/>
+        </g>
+        <text class="st19">
+            <tspan style="white-space:pre" x="27" y="16.1">相图</tspan>
+        </text>
+        <g ed:hyperlink="[&#xa;    {&#xa;        &quot;desc&quot;: &quot;超链接1&quot;,&#xa;        &quot;link&quot;: &quot;https://siegenfest.github.io/ChemThermo/#/phase-equi/pha-dia&quot;&#xa;    }&#xa;]&#xa;">
+            <use xlink:href="#imghyperlink" transform="translate(60,4)"/>
+        </g>
+    </g>
+    <symbol id="imgarrow4">
+        <image height="16" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyZpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuNi1jMTM4IDc5LjE1OTgyNCwgMjAxNi8wOS8xNC0wMTowOTowMSAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6MTJBRDc5MzA1MEE4MTFFN0I5NkNBRDhCQkY3MEE0QzYiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6MTJBRDc5MkY1MEE4MTFFN0I5NkNBRDhCQkY3MEE0QzYiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENDIDIwMTcgKFdpbmRvd3MpIj4gPHhtcE1NOkRlcml2ZWRGcm9tIHN0UmVmOmluc3RhbmNlSUQ9InhtcC5paWQ6Mjk1NjRBMjQ1MDI3MTFFN0JFMDM5RjRGRThDNzM1RDYiIHN0UmVmOmRvY3VtZW50SUQ9InhtcC5kaWQ6Mjk1NjRBMjU1MDI3MTFFN0JFMDM5RjRGRThDNzM1RDYiLz4gPC9yZGY6RGVzY3JpcHRpb24+IDwvcmRmOlJERj4gPC94OnhtcG1ldGE+IDw/eHBhY2tldCBlbmQ9InIiPz4mPPNNAAADBUlEQVR42uybSWgUURCG35hRo6gn9WLQS/AgCpKAKIhechBDcIkaF4IKrkFc0GjA5ZAouOKCuINKcF+DKB68KEpCQBEUD+JJ9GJyMYoaJYx/MS8wDLO8TE0zXa/mhw8yk+nq5me6q+rVm0gsFjOaNcgoV9EA7QZEE18MbX0ahmuaAF6BFnA+qJP01s8J5TdgEbgHxoFzYKamW6Ae3AGVCe/dB2W+GzACHAZHU/xvDGgDJb4aMBYcA43271SqALd8NGAKeAhWOny2Fhz0xYAhYDa4BGZQ8nE8bhdY64MBdeAJmJbDsRdAlWQDhoEmMJwRg9JkuVQDfoMF4AcjxijwAJRKvQU+goXMGJPBbclZ4BloYMaoAcclp8GzaYqfgWgr2Cy5EGq09zNHJ0G15FKY0uJbZgzqISZJNeAfmAe6mem1zWYIkd3gZ1vuclRuawSx7fALsJoZo8quI4g0gHQFHGDGWA92SDWAtAfcZMY4YitOkQaQloGOPGSGimwfiia99mlKUmJrjMpMGcb3ZfHx2TKDhrnALHBZswGkVWCvZgNIzWC5ZgNI18B0zQaQTpv4vEGtAUb7N2AT6NJqwIrkClOTAfvAda23AHWZLVqfARnXGXw3IOtKU7IBkRDBbYf77JpAt8Q0eCO5YstBi8EbiXXAfrCUGcN53hA2A6hr282MQTvLnCdOYTIgY9/uKJo5bpBYCmdduXHQJ5PDbCEMBgw28anOaEYM2ndA06UeiQbQDrCpeXjif5DYDTqv32fQFvBYYju80QxggpNGJ8ApiesBNMM7w4zxCGyTuCAy0cT3AHP0HizJx8UUYpscVWgjGTF67HPjj0QDKF3RltdfjBi1NucbiQb0p725oDOHY9fZas9INuAveA7WgHbQ63jcIXAx3xdTyDT4DswHVx0+S2VyUxAXES1wIfQNbAffTXzbfKrfDFBPXxfUBYShFP4JdqYpirpsjd/nswH9arU1/euE92hP8ZcgTxq2BZG7Ns19tX39y6BPGCn+dli5igZoN+C/AAMA3RJ9ZeO99qYAAAAASUVORK5CYII=" width="16"/>
+    </symbol>
+        </svg>
+        </div>
+      </div>
+    </div>
+    <script>eval(atob('dmFyIG11YSA9IHdpbmRvdy5uYXZpZ2F0b3IudXNlckFnZW50Ow0KdmFyIHVhID0gKG11YS5pbmRleE9mKCdydjoxMScpICsgbXVhLmluZGV4T2YoJ01TSUUnKSkgPj0gMDsNCmRvY3VtZW50LmdldEVsZW1lbnRCeUlkKCdzdmctY29udGFpbmVyJykub25jb250ZXh0bWVudSA9IGZ1bmN0aW9uIChldmVudCkgew0KICAgIGV2ZW50LnByZXZlbnREZWZhdWx0KCk7DQp9DQpkb2N1bWVudC5nZXRFbGVtZW50QnlJZCgnc3ZnLWNvbnRhaW5lcicpLm9ubW91c2Vkb3duID0gZnVuY3Rpb24gKGV2ZW50KSB7DQogICAgaWYgKGV2ZW50LndoaWNoID09IDMpIHsNCiAgICAgICAgdGhpcy5zdHlsZS5jdXJzb3IgPSAncG9pbnRlcic7DQogICAgICAgIHRoaXMub25tb3VzZW1vdmUgPSBmdW5jdGlvbiAoZXYpIHsNCiAgICAgICAgICAgIHRoaXMuc2Nyb2xsQnkoLShldi5tb3ZlbWVudFgpLCAwKTsNCiAgICAgICAgICAgIHdpbmRvdy5zY3JvbGxCeSgwLCAtKGV2Lm1vdmVtZW50WSkpDQogICAgICAgIH0NCiAgICAgICAgdGhpcy5vbm1vdXNldXAgPSBmdW5jdGlvbiAoKSB7DQogICAgICAgICAgICB0aGlzLnN0eWxlLmN1cnNvciA9IG51bGw7DQogICAgICAgICAgICB0aGlzLm9ubW91c2V1cCA9IG51bGw7DQogICAgICAgICAgICB0aGlzLm9ubW91c2Vtb3ZlID0gbnVsbDsNCiAgICAgICAgfQ0KICAgIH0NCn0NCk51bWJlci5wcm90b3R5cGUudG9zdWl0c3ZnID0gZnVuY3Rpb24gKCkgew0KICAgIHZhciBudW0gPSB0aGlzLnZhbHVlT2YoKTsNCiAgICBpZiAobnVtICUgMSA9PT0gMCkgew0KICAgICAgICByZXR1cm4gbnVtICsgMC41DQogICAgfSBlbHNlIHJldHVybiBudW07DQp9Ow0KTnVtYmVyLnByb3RvdHlwZS5wbHVzeiA9IGZ1bmN0aW9uICgpIHsNCiAgICB2YXIgbnVtID0gdGhpcy52YWx1ZU9mKCk7DQogICAgcmV0dXJuIG51bSA8IDEwID8gJzAnICsgbnVtIDogbnVtOw0KfTsNCmZ1bmN0aW9uIHBhcnNlRGF0ZShudW0pIHsNCiAgICB2YXIgZGF0ZSA9IG5ldyBEYXRlKG51bSk7DQogICAgdmFyIFkgPSBkYXRlLmdldEZ1bGxZZWFyKCkgKyAnLSc7DQogICAgdmFyIE0gPSAoZGF0ZS5nZXRNb250aCgpICsgMSkucGx1c3ooKSArICctJzsNCiAgICB2YXIgRCA9IGRhdGUuZ2V0RGF0ZSgpLnBsdXN6KCkgKyAnICc7DQogICAgdmFyIGggPSBkYXRlLmdldEhvdXJzKCkucGx1c3ooKSArICc6JzsNCiAgICB2YXIgbW0gPSBkYXRlLmdldE1pbnV0ZXMoKS5wbHVzeigpICsgJzonOw0KICAgIHZhciBzID0gZGF0ZS5nZXRTZWNvbmRzKCkucGx1c3ooKTsNCiAgICByZXR1cm4gWSArIE0gKyBEICsgaCArIG1tICsgczsNCn0NCi8vLS1wcmVkZWZpbmVkDQovL2NvbW1lbnQtLQ0KDQpmdW5jdGlvbiBnZXRjd2gocG9wdXApIHsNCiAgICBkb2N1bWVudC5ib2R5LmdldEVsZW1lbnRzQnlUYWdOYW1lKCdzdmcnKVswXS5hcHBlbmRDaGlsZChwb3B1cCk7DQogICAgdmFyIHcgPSBwb3B1cC5nZXRCb3VuZGluZ0NsaWVudFJlY3QoKS53aWR0aDsNCiAgICB2YXIgaCA9IHBvcHVwLmdldEJvdW5kaW5nQ2xpZW50UmVjdCgpLmhlaWdodDsNCiAgICByZXR1cm4gW3csIGhdDQp9DQpzdmdFbGVtcyA9IGRvY3VtZW50LnF1ZXJ5U2VsZWN0b3JBbGwoInN2ZyIpOw0KZm9yIChsZXQgaW5kZXggPSAxOyBpbmRleCA8PSBzdmdFbGVtcy5sZW5ndGg7IGluZGV4KyspIHsNCiAgICAvLyB2YXIgY29tbWVudHMgPSBkb2N1bWVudC5xdWVyeVNlbGVjdG9yQWxsKCdzdmc6bnRoLWNoaWxkKCcgKyBpbmRleCArICcpIGc+Z1tlZFxcOmNvbW1lbnRdJyk7DQogICAgdmFyIGNvbW1lbnRzID0gZG9jdW1lbnQucXVlcnlTZWxlY3RvckFsbChgc3ZnOm50aC1jaGlsZCgke2luZGV4fSkgZz5nW2VkXFw6Y29tbWVudF1gKTsNCiAgICBmb3IgKHZhciBpID0gMDsgaSA8IGNvbW1lbnRzLmxlbmd0aDsgaSsrKSB7DQogICAgICAgIHZhciBwb3B1cCA9IGRvY3VtZW50LmNyZWF0ZUVsZW1lbnROUygnaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnLCAnZycpOw0KICAgICAgICB2YXIgcG9wdXBSID0gZG9jdW1lbnQuY3JlYXRlRWxlbWVudE5TKCdodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZycsICdyZWN0Jyk7DQogICAgICAgIHZhciBob3ZlciA9IGRvY3VtZW50LmNyZWF0ZUVsZW1lbnROUygnaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnLCAncmVjdCcpOw0KICAgICAgICB2YXIgb2xpbmUgPSBkb2N1bWVudC5jcmVhdGVFbGVtZW50TlMoJ2h0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnJywgJ3JlY3QnKTsNCiAgICAgICAgaG92ZXIuc2V0QXR0cmlidXRlKCdmaWxsJywgJyNjZGNkZmYnKTsNCiAgICAgICAgaG92ZXIuc2V0QXR0cmlidXRlKCd4JywgJzAnKTsNCiAgICAgICAgaG92ZXIuc2V0QXR0cmlidXRlKCd5JywgJzAnKTsNCiAgICAgICAgaG92ZXIuc2V0QXR0cmlidXRlKCdoZWlnaHQnLCAnMTYnKTsNCiAgICAgICAgaG92ZXIuc2V0QXR0cmlidXRlKCd3aWR0aCcsICcxNicpOw0KICAgICAgICBob3Zlci5zZXRBdHRyaWJ1dGUoJ2ZpbGwtb3BhY2l0eScsICcwLjYnKTsNCiAgICAgICAgaG92ZXIuc2V0QXR0cmlidXRlKCd0cmFuc2Zvcm0nLCBjb21tZW50c1tpXS5xdWVyeVNlbGVjdG9yKCd1c2UnKS5nZXRBdHRyaWJ1dGUoJ3RyYW5zZm9ybScpKTsNCiAgICAgICAgaG92ZXIuc3R5bGUuZGlzcGxheSA9ICdub25lJzsNCiAgICAgICAgY29tbWVudHNbaV0uYXBwZW5kQ2hpbGQoaG92ZXIpOw0KICAgICAgICB2YXIgYSA9IEpTT04ucGFyc2UoY29tbWVudHNbaV0uZ2V0QXR0cmlidXRlKCdlZDpjb21tZW50JykpOw0KICAgICAgICB2YXIgaGVpZ2h0ID0gMDsNCiAgICAgICAgdmFyIGNhcnIgPSBbXTsNCiAgICAgICAgZm9yICh2YXIgaiA9IDA7IGogPCBhLmxlbmd0aDsgaisrKSB7DQogICAgICAgICAgICB2YXIgc3RhbXAgPSBOdW1iZXIoYVtqXS5EYXRlKSAqIDEwMDA7DQogICAgICAgICAgICB2YXIgdGltZSA9IHBhcnNlRGF0ZShzdGFtcCk7DQogICAgICAgICAgICB2YXIgbmFtZSA9IGFbal0uTmFtZTsNCiAgICAgICAgICAgIHZhciBtZXNzYWdlID0gYVtqXS5NZXNzYWdlOw0KICAgICAgICAgICAgdmFyIG1lc3NhZ2VBcnIgPSBtZXNzYWdlLnNwbGl0KC9cbi8pOw0KICAgICAgICAgICAgdmFyIG8gPSBkb2N1bWVudC5jcmVhdGVFbGVtZW50TlMoJ2h0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnJywgJ2cnKTsNCiAgICAgICAgICAgIHZhciBuID0gZG9jdW1lbnQuY3JlYXRlRWxlbWVudE5TKCdodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZycsICd0ZXh0Jyk7DQogICAgICAgICAgICB2YXIgdCA9IGRvY3VtZW50LmNyZWF0ZUVsZW1lbnROUygnaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnLCAndGV4dCcpOw0KICAgICAgICAgICAgdmFyIG0gPSBkb2N1bWVudC5jcmVhdGVFbGVtZW50TlMoJ2h0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnJywgJ3RleHQnKTsNCiAgICAgICAgICAgIG4uc2V0QXR0cmlidXRlKCd4JywgNSk7DQogICAgICAgICAgICBuLnNldEF0dHJpYnV0ZSgneScsIDEyKTsNCiAgICAgICAgICAgIG4uc2V0QXR0cmlidXRlKCdmaWxsJywgJyMwMDZlZmYnKTsNCiAgICAgICAgICAgIG4udGV4dENvbnRlbnQgPSBuYW1lICsgJzogJzsNCiAgICAgICAgICAgIG4uc2V0QXR0cmlidXRlKCdmb250LXNpemUnLCAnMTInKTsNCiAgICAgICAgICAgIHQuc2V0QXR0cmlidXRlKCd4JywgMjAwKTsNCiAgICAgICAgICAgIHQuc2V0QXR0cmlidXRlKCd5JywgMTIpOw0KICAgICAgICAgICAgdC5zZXRBdHRyaWJ1dGUoJ2ZpbGwnLCAnIzk2OTY5NicpOw0KICAgICAgICAgICAgdC50ZXh0Q29udGVudCA9IHRpbWU7DQogICAgICAgICAgICB0LnNldEF0dHJpYnV0ZSgnZm9udC1zaXplJywgJzEwJyk7DQogICAgICAgICAgICBtLnNldEF0dHJpYnV0ZSgndHJhbnNmb3JtJywgJ3RyYW5zbGF0ZSgyMCwyNyknKTsNCiAgICAgICAgICAgIG0uc2V0QXR0cmlidXRlKCdmb250LXNpemUnLCAnMTInKTsNCiAgICAgICAgICAgIGZvciAodmFyIGsgPSAwOyBrIDwgbWVzc2FnZUFyci5sZW5ndGg7IGsrKykgew0KICAgICAgICAgICAgICAgIHZhciB0cyA9IGRvY3VtZW50LmNyZWF0ZUVsZW1lbnROUygnaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnLCAndHNwYW4nKTsNCiAgICAgICAgICAgICAgICB0cy5zZXRBdHRyaWJ1dGUoJ3gnLCAnMCcpOw0KICAgICAgICAgICAgICAgIHRzLnNldEF0dHJpYnV0ZSgneScsIGsgKiAxNik7DQogICAgICAgICAgICAgICAgdHMudGV4dENvbnRlbnQgPSBtZXNzYWdlQXJyW2tdOw0KICAgICAgICAgICAgICAgIG0uYXBwZW5kQ2hpbGQodHMpOw0KICAgICAgICAgICAgfQ0KICAgICAgICAgICAgby5zZXRBdHRyaWJ1dGUoJ3RyYW5zZm9ybScsICd0cmFuc2xhdGUoMCwnICsgaGVpZ2h0ICsgJyknKTsNCiAgICAgICAgICAgIG8uYXBwZW5kQ2hpbGQobik7DQogICAgICAgICAgICBvLmFwcGVuZENoaWxkKHQpOw0KICAgICAgICAgICAgby5hcHBlbmRDaGlsZChtKTsNCiAgICAgICAgICAgIGNhcnIucHVzaChvKTsNCiAgICAgICAgICAgIHBvcHVwLmFwcGVuZENoaWxkKG8pOw0KICAgICAgICAgICAgaGVpZ2h0ID0gKG1lc3NhZ2VBcnIubGVuZ3RoICsgMSkgKiAxNiArIGhlaWdodDsNCiAgICAgICAgfQ0KICAgICAgICB2YXIgd2FyciA9IGdldGN3aChwb3B1cCk7DQogICAgICAgIG9saW5lLnNldEF0dHJpYnV0ZSgneCcsICcwJyk7DQogICAgICAgIG9saW5lLnNldEF0dHJpYnV0ZSgneScsICcwJyk7DQogICAgICAgIHZhciBvdyA9IHdhcnJbMF0gKyAxMC41Ow0KICAgICAgICB2YXIgb2ggPSB3YXJyWzFdICsgMzsNCiAgICAgICAgb2xpbmUuc2V0QXR0cmlidXRlKCd3aWR0aCcsIG93KTsNCiAgICAgICAgb2xpbmUuc2V0QXR0cmlidXRlKCdoZWlnaHQnLCBvaCk7DQogICAgICAgIG9saW5lLnNldEF0dHJpYnV0ZSgnZmlsbCcsICd3aGl0ZScpOw0KICAgICAgICBvbGluZS5zZXRBdHRyaWJ1dGUoJ3N0cm9rZScsICcjNjU2NTY1Jyk7DQogICAgICAgIHBvcHVwLmFwcGVuZENoaWxkKG9saW5lKTsNCiAgICAgICAgdmFyIGwgPSBjYXJyLmxlbmd0aDsNCiAgICAgICAgd2hpbGUgKGwtLSkgew0KICAgICAgICAgICAgcG9wdXAuYXBwZW5kQ2hpbGQoY2FycltsXSk7DQogICAgICAgIH0NCiAgICAgICAgcG9wdXAub25tb3VzZW92ZXIgPSBmdW5jdGlvbiAoKSB7DQogICAgICAgICAgICB0aGlzLnN0eWxlLmRpc3BsYXkgPSAnYmxvY2snOw0KICAgICAgICB9Ow0KICAgICAgICBwb3B1cC5vbm1vdXNlb3V0ID0gZnVuY3Rpb24gKCkgew0KICAgICAgICAgICAgdGhpcy5zdHlsZS5kaXNwbGF5ID0gJ25vbmUnOw0KICAgICAgICB9Ow0KICAgICAgICB2YXIgY3MgPSBjb21tZW50c1tpXS5xdWVyeVNlbGVjdG9yKCd1c2UnKS5nZXRBdHRyaWJ1dGUoJ3RyYW5zZm9ybScpLm1hdGNoKC9cKChcUyp8XFMqXHNcUyopXCkvKVsxXS5zcGxpdCgvIHwsLyk7DQogICAgICAgIHZhciBwcyA9IGNvbW1lbnRzW2ldLnBhcmVudE5vZGUuZ2V0QXR0cmlidXRlKCd0cmFuc2Zvcm0nKTsNCiAgICAgICAgaWYgKHBzLnN1YnN0cigwLCAyKSA9PSAndHInKSB7DQogICAgICAgICAgICB2YXIgcHBzID0gcHMubWF0Y2goL1woKFxTKnxcUypcc1xTKilcKS8pWzFdLnNwbGl0KC8gfCwvKTsNCiAgICAgICAgICAgIHZhciB4ID0gcGFyc2VGbG9hdChjc1swXSkgKyBwYXJzZUZsb2F0KHBwc1swXSk7DQogICAgICAgICAgICB2YXIgeSA9IHBhcnNlRmxvYXQocHBzWzFdKTsNCiAgICAgICAgICAgIHggPSB4LnRvc3VpdHN2ZygpOw0KICAgICAgICAgICAgeSA9IHkudG9zdWl0c3ZnKCk7DQogICAgICAgICAgICB2YXIgdHJzdHIgPSAndHJhbnNsYXRlKCcgKyB4ICsgJywnICsgeSArICcpJzsNCiAgICAgICAgfQ0KICAgICAgICBlbHNlIGlmIChwcy5zdWJzdHIoMCwgMikgPT0gJ21hJykgew0KICAgICAgICAgICAgdmFyIHBwcyA9IHBzLm1hdGNoKC8oXC0/XGQrKFwuXGQrKT8pW1wsIF0oXC0/XGQrKFwuXGQrKT8pW1wsIF0oXC0/XGQrKFwuXGQrKT8pW1wsIF0oXC0/XGQrKFwuXGQrKT8pW1wsIF0oXC0/XGQrKFwuXGQrKT8pW1wsIF0oXC0/XGQrKFwuXGQrKT8pXCkkLyk7DQogICAgICAgICAgICB2YXIgbWFBcnIgPSBbcGFyc2VGbG9hdChwcHNbMV0pLCBwYXJzZUZsb2F0KHBwc1szXSksIHBhcnNlRmxvYXQocHBzWzVdKSwgcGFyc2VGbG9hdChwcHNbN10pLCBwYXJzZUZsb2F0KHBwc1s5XSksIHBhcnNlRmxvYXQocHBzWzExXSldOw0KICAgICAgICAgICAgaWYgKG1hQXJyWzFdID09IDApIHsNCiAgICAgICAgICAgICAgICB2YXIgeCA9IHBhcnNlRmxvYXQoY3NbMF0pOw0KICAgICAgICAgICAgICAgIHZhciB5ID0gcGFyc2VGbG9hdChjc1sxXSkgKyAxNjsNCiAgICAgICAgICAgICAgICB2YXIgeDEgPSB4ICogbWFBcnJbMF0gKyB5ICogbWFBcnJbMl0gKyBtYUFycls0XTsNCiAgICAgICAgICAgICAgICB2YXIgeTEgPSB4ICogbWFBcnJbMV0gKyB5ICogbWFBcnJbM10gKyBtYUFycls1XTsNCiAgICAgICAgICAgICAgICB4MSA9IHgxLnRvc3VpdHN2ZygpOw0KICAgICAgICAgICAgICAgIHkxID0geTEudG9zdWl0c3ZnKCk7DQogICAgICAgICAgICAgICAgdmFyIHRyc3RyID0gJ3RyYW5zbGF0ZSgnICsgeDEgKyAnLCcgKyB5MSArICcpJzsNCiAgICAgICAgICAgIH0gZWxzZSB7DQogICAgICAgICAgICAgICAgdmFyIHggPSBwYXJzZUZsb2F0KGNzWzBdKSArIDE2Ow0KICAgICAgICAgICAgICAgIHZhciB5ID0gcGFyc2VGbG9hdChjc1sxXSkgKyAxNjsNCiAgICAgICAgICAgICAgICB2YXIgeDEgPSB4ICogbWFBcnJbMF0gKyB5ICogbWFBcnJbMl0gKyBtYUFycls0XTsNCiAgICAgICAgICAgICAgICB2YXIgeTEgPSB4ICogbWFBcnJbMV0gKyB5ICogbWFBcnJbM10gKyBtYUFycls1XTsNCiAgICAgICAgICAgICAgICB4ID0gcGFyc2VGbG9hdChjc1swXSkgKyAxNjsNCiAgICAgICAgICAgICAgICB5ID0gcGFyc2VGbG9hdChjc1sxXSk7DQogICAgICAgICAgICAgICAgdmFyIHgyID0geCAqIG1hQXJyWzBdICsgeSAqIG1hQXJyWzJdICsgbWFBcnJbNF07DQogICAgICAgICAgICAgICAgdmFyIHkyID0geCAqIG1hQXJyWzFdICsgeSAqIG1hQXJyWzNdICsgbWFBcnJbNV07DQogICAgICAgICAgICAgICAgdmFyIGZ4ID0geDEgPCB4MiA/IHgxLnRvc3VpdHN2ZygpIDogeDIudG9zdWl0c3ZnKCk7DQogICAgICAgICAgICAgICAgdmFyIGZ5ID0geTEgPiB5MiA/IHkxLnRvc3VpdHN2ZygpIDogeTIudG9zdWl0c3ZnKCk7DQogICAgICAgICAgICAgICAgdmFyIG9mZnkgPSBNYXRoLmFicyh5MSAtIHkyKTsNCiAgICAgICAgICAgICAgICB2YXIgdHJzdHIgPSAndHJhbnNsYXRlKCcgKyBmeCArICcsJyArIGZ5ICsgJyknOw0KICAgICAgICAgICAgICAgIHBvcHVwUi5zZXRBdHRyaWJ1dGUoJ2hlaWdodCcsIG9mZnkudG9TdHJpbmcoKSk7DQogICAgICAgICAgICAgICAgcG9wdXBSLnNldEF0dHJpYnV0ZSgnd2lkdGgnLCAnMTYnKTsNCiAgICAgICAgICAgICAgICBwb3B1cFIuc2V0QXR0cmlidXRlKCd5JywgKC1vZmZ5KS50b1N0cmluZygpKTsNCiAgICAgICAgICAgICAgICBwb3B1cFIuc2V0QXR0cmlidXRlKCdmaWxsJywgJ3RyYW5zcGFyZW50Jyk7DQogICAgICAgICAgICAgICAgcG9wdXAuYXBwZW5kQ2hpbGQocG9wdXBSKTsNCiAgICAgICAgICAgIH0NCiAgICAgICAgfQ0KICAgICAgICBwb3B1cC5zZXRBdHRyaWJ1dGUoJ3RyYW5zZm9ybScsIHRyc3RyKTsNCiAgICAgICAgcG9wdXAuc2V0QXR0cmlidXRlKCdjb21tZW50JywgJycpOw0KICAgICAgICBwb3B1cC5zdHlsZS5kaXNwbGF5ID0gJ25vbmUnOw0KICAgICAgICBsZXQgY29tbWVudGlkID0gY29tbWVudHNbaV0ucGFyZW50Tm9kZS5wYXJlbnROb2RlLmlkICsgIiwiICsgY29tbWVudHNbaV0ucGFyZW50Tm9kZS5pZDsNCiAgICAgICAgcG9wdXAuc2V0QXR0cmlidXRlKCdlZDpjb21tZW50aWQnLCBjb21tZW50aWQpOw0KICAgICAgICBkb2N1bWVudC5xdWVyeVNlbGVjdG9yKCcjc3ZnLWNvbnRhaW5lciA+IHN2ZzpudGgtY2hpbGQoJyArIGluZGV4ICsgJyknKS5hcHBlbmRDaGlsZChwb3B1cCk7DQogICAgICAgIGNvbW1lbnRzW2ldLm9ubW91c2VvdmVyID0gZnVuY3Rpb24gKCkgew0KICAgICAgICAgICAgLy8gdmFyIGNvbW1lbnRpZCA9IHRoaXMucGFyZW50Tm9kZS5pZDsNCiAgICAgICAgICAgIHRoaXMucXVlcnlTZWxlY3RvcigncmVjdCcpLnN0eWxlLmRpc3BsYXkgPSAnYmxvY2snOw0KICAgICAgICAgICAgZG9jdW1lbnQucXVlcnlTZWxlY3RvcigiZ1tlZFxcOmNvbW1lbnRpZD0nIiArIGNvbW1lbnRpZCArICInXVtjb21tZW50XSIpLnN0eWxlLmRpc3BsYXkgPSAnYmxvY2snOw0KICAgICAgICB9Ow0KICAgICAgICBjb21tZW50c1tpXS5vbm1vdXNlb3V0ID0gZnVuY3Rpb24gKCkgew0KICAgICAgICAgICAgLy8gdmFyIGNvbW1lbnRpZCA9IHRoaXMucGFyZW50Tm9kZS5pZDsNCiAgICAgICAgICAgIC8vICAgICAgICB3aW5kb3cuZ2V0U2VsZWN0aW9uKCkucmVtb3ZlQWxsUmFuZ2VzKCk7DQogICAgICAgICAgICB0aGlzLnF1ZXJ5U2VsZWN0b3IoJ3JlY3QnKS5zdHlsZS5kaXNwbGF5ID0gJ25vbmUnOw0KICAgICAgICAgICAgZG9jdW1lbnQucXVlcnlTZWxlY3RvcigiZ1tlZFxcOmNvbW1lbnRpZD0nIiArIGNvbW1lbnRpZCArICInXVtjb21tZW50XSIpLnN0eWxlLmRpc3BsYXkgPSAnbm9uZSc7DQogICAgICAgIH0NCiAgICB9DQp9DQovLy0tY29tbWVudA0KLy9ub3RlLS0NCmlmICghdWEpIHsNCiAgICBmdW5jdGlvbiBnZXR3aChzLCBwKSB7DQogICAgICAgIHZhciBtYWlucCA9IGRvY3VtZW50LmNyZWF0ZUVsZW1lbnQoJ2RpdicpOw0KICAgICAgICBtYWlucC5zdHlsZS5jc3NUZXh0ID0gczsNCiAgICAgICAgbWFpbnAuc3R5bGUuZGlzcGxheSA9ICdpbmxpbmUtYmxvY2snOw0KICAgICAgICBtYWlucC5zdHlsZS5tYXhXaWR0aCA9ICc0MDBweCc7DQogICAgICAgIG1haW5wLnN0eWxlLndvcmRCcmVhayA9ICdicmVhay1hbGwnOw0KICAgICAgICBtYWlucC5pbm5lckhUTUwgPSBwOw0KICAgICAgICBkb2N1bWVudC5ib2R5LmFwcGVuZENoaWxkKG1haW5wKTsNCiAgICAgICAgdmFyIHcgPSBtYWlucC5jbGllbnRXaWR0aDsNCiAgICAgICAgdmFyIGggPSBtYWlucC5jbGllbnRIZWlnaHQ7DQogICAgICAgIGRvY3VtZW50LmJvZHkucmVtb3ZlQ2hpbGQobWFpbnApOw0KICAgICAgICByZXR1cm4gW3csIGhdDQogICAgfQ0KICAgIHN2Z0VsZW1zID0gZG9jdW1lbnQucXVlcnlTZWxlY3RvckFsbCgic3ZnIik7DQogICAgZm9yIChsZXQgaW5kZXggPSAxOyBpbmRleCA8PSBzdmdFbGVtcy5sZW5ndGg7IGluZGV4KyspIHsNCiAgICAgICAgdmFyIG5vdGVzID0gZG9jdW1lbnQucXVlcnlTZWxlY3RvckFsbCgnc3ZnOm50aC1jaGlsZCgnICsgaW5kZXggKyAnKSBnPmdbZWRcXDpub3RlXScpOw0KICAgICAgICBmb3IgKHZhciBpID0gMDsgaSA8IG5vdGVzLmxlbmd0aDsgaSsrKSB7DQogICAgICAgICAgICB2YXIgYSA9IG5vdGVzW2ldLmdldEF0dHJpYnV0ZSgnZWQ6bm90ZScpOw0KICAgICAgICAgICAgdmFyIG5vdGVMb2NrID0gbm90ZXNbaV0uZ2V0QXR0cmlidXRlKCdlZDpub3RlbG9jaycpOw0KICAgICAgICAgICAgaWYgKG5vdGVMb2NrID09ICd0cnVlJykgew0KICAgICAgICAgICAgICAgIGNvbnRpbnVlOw0KICAgICAgICAgICAgfQ0KICAgICAgICAgICAgdmFyIG1haW5wID0gYS5tYXRjaCgvPGJvZHlbXj5dKj4oLiopPFwvYm9keT4vKVsxXTsNCiAgICAgICAgICAgIHZhciBtYWlucyA9IGEubWF0Y2goL3N0eWxlPSIoLio/KSIvKVsxXTsNCiAgICAgICAgICAgIHZhciBvdXQgPSBkb2N1bWVudC5jcmVhdGVFbGVtZW50TlMoJ2h0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnJywgJ2cnKTsNCiAgICAgICAgICAgIHZhciBvbGluZSA9IGRvY3VtZW50LmNyZWF0ZUVsZW1lbnROUygnaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnLCAncmVjdCcpOw0KICAgICAgICAgICAgdmFyIHBvcHVwID0gZG9jdW1lbnQuY3JlYXRlRWxlbWVudE5TKCdodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZycsICdmb3JlaWduT2JqZWN0Jyk7DQogICAgICAgICAgICB2YXIgcG9wdXBSID0gZG9jdW1lbnQuY3JlYXRlRWxlbWVudE5TKCdodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZycsICdyZWN0Jyk7DQogICAgICAgICAgICB2YXIgaG92ZXIgPSBkb2N1bWVudC5jcmVhdGVFbGVtZW50TlMoJ2h0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnJywgJ3JlY3QnKTsNCiAgICAgICAgICAgIGhvdmVyLnNldEF0dHJpYnV0ZSgnZmlsbCcsICcjY2RjZGZmJyk7DQogICAgICAgICAgICBob3Zlci5zZXRBdHRyaWJ1dGUoJ3gnLCAnMCcpOw0KICAgICAgICAgICAgaG92ZXIuc2V0QXR0cmlidXRlKCd5JywgJzAnKTsNCiAgICAgICAgICAgIGhvdmVyLnNldEF0dHJpYnV0ZSgnaGVpZ2h0JywgJzE2Jyk7DQogICAgICAgICAgICBob3Zlci5zZXRBdHRyaWJ1dGUoJ3dpZHRoJywgJzE2Jyk7DQogICAgICAgICAgICBob3Zlci5zZXRBdHRyaWJ1dGUoJ2ZpbGwtb3BhY2l0eScsICcwLjYnKTsNCiAgICAgICAgICAgIGhvdmVyLnNldEF0dHJpYnV0ZSgndHJhbnNmb3JtJywgbm90ZXNbaV0ucXVlcnlTZWxlY3RvcigndXNlJykuZ2V0QXR0cmlidXRlKCd0cmFuc2Zvcm0nKSk7DQogICAgICAgICAgICBob3Zlci5zdHlsZS5kaXNwbGF5ID0gJ25vbmUnOw0KICAgICAgICAgICAgbm90ZXNbaV0uYXBwZW5kQ2hpbGQoaG92ZXIpOw0KICAgICAgICAgICAgcG9wdXAuc3R5bGUuY3NzVGV4dCA9IG1haW5zOw0KICAgICAgICAgICAgcG9wdXAuaW5uZXJIVE1MID0gbWFpbnA7DQogICAgICAgICAgICB2YXIgd2ggPSBnZXR3aChtYWlucywgbWFpbnApOw0KICAgICAgICAgICAgcG9wdXAuc2V0QXR0cmlidXRlKCd3aWR0aCcsIHdoWzBdKTsNCiAgICAgICAgICAgIHBvcHVwLnNldEF0dHJpYnV0ZSgnaGVpZ2h0Jywgd2hbMV0pOw0KICAgICAgICAgICAgcG9wdXAuc2V0QXR0cmlidXRlKCd0cmFuc2Zvcm0nLCAndHJhbnNsYXRlKDgsNCknKTsNCiAgICAgICAgICAgIHBvcHVwLnN0eWxlLndvcmRCcmVhayA9ICdicmVhay1hbGwnOw0KICAgICAgICAgICAgcG9wdXAuc3R5bGUudGV4dEFsaWduID0gJ2xlZnQnOw0KICAgICAgICAgICAgb2xpbmUuc2V0QXR0cmlidXRlKCd4JywgJzAnKTsNCiAgICAgICAgICAgIG9saW5lLnNldEF0dHJpYnV0ZSgneScsICcwJyk7DQogICAgICAgICAgICBvbGluZS5zZXRBdHRyaWJ1dGUoJ3dpZHRoJywgd2hbMF0gKyAxNik7DQogICAgICAgICAgICBvbGluZS5zZXRBdHRyaWJ1dGUoJ2hlaWdodCcsIHdoWzFdICsgOCk7DQogICAgICAgICAgICBvbGluZS5zZXRBdHRyaWJ1dGUoJ3N0cm9rZScsICcjYTI3YTAwJyk7DQogICAgICAgICAgICBvbGluZS5zZXRBdHRyaWJ1dGUoJ2ZpbGwnLCAnI2ZmZTc5ZCcpOw0KICAgICAgICAgICAgb3V0LmFwcGVuZENoaWxkKG9saW5lKTsNCiAgICAgICAgICAgIG91dC5hcHBlbmRDaGlsZChwb3B1cCk7DQogICAgICAgICAgICBvdXQuc2V0QXR0cmlidXRlKCdub3RlJywgJycpOw0KICAgICAgICAgICAgb3V0LnN0eWxlLmRpc3BsYXkgPSAnbm9uZSc7DQogICAgICAgICAgICBsZXQgbm90ZWlkID0gbm90ZXNbaV0ucGFyZW50Tm9kZS5wYXJlbnROb2RlLmlkICsgIiwiICsgbm90ZXNbaV0ucGFyZW50Tm9kZS5pZDsNCiAgICAgICAgICAgIG91dC5zZXRBdHRyaWJ1dGUoJ2VkOm5vdGVpZCcsIG5vdGVpZCk7DQogICAgICAgICAgICBvdXQub25tb3VzZW92ZXIgPSBmdW5jdGlvbiAoKSB7DQogICAgICAgICAgICAgICAgdGhpcy5zdHlsZS5kaXNwbGF5ID0gJ2Jsb2NrJzsNCiAgICAgICAgICAgIH07DQogICAgICAgICAgICBvdXQub25tb3VzZW91dCA9IGZ1bmN0aW9uICgpIHsNCiAgICAgICAgICAgICAgICAvLyAgICAgICAgd2luZG93LmdldFNlbGVjdGlvbiA/IHdpbmRvdy5nZXRTZWxlY3Rpb24oKS5yZW1vdmVSYW5nZSh3aW5kb3cuZ2V0U2VsZWN0aW9uKCkucmUpOmRvY3VtZW50LnNlbGVjdGlvbi5lbXB0eSgpOw0KDQogICAgICAgICAgICAgICAgdGhpcy5zdHlsZS5kaXNwbGF5ID0gJ25vbmUnOw0KICAgICAgICAgICAgfTsNCiAgICAgICAgICAgIHZhciBjcyA9IG5vdGVzW2ldLnF1ZXJ5U2VsZWN0b3IoJ3VzZScpLmdldEF0dHJpYnV0ZSgndHJhbnNmb3JtJykubWF0Y2goL1woKFxTKnxcUypcc1xTKilcKS8pWzFdLnNwbGl0KC8gfCwvKTsNCiAgICAgICAgICAgIHZhciBwcyA9IG5vdGVzW2ldLnBhcmVudE5vZGUuZ2V0QXR0cmlidXRlKCd0cmFuc2Zvcm0nKTsNCiAgICAgICAgICAgIGlmIChwcy5zdWJzdHIoMCwgMikgPT0gJ3RyJykgew0KICAgICAgICAgICAgICAgIHZhciBwcHMgPSBwcy5tYXRjaCgvXCgoXFMqfFxTKlxzXFMqKVwpLylbMV0uc3BsaXQoLyB8LC8pOw0KICAgICAgICAgICAgICAgIHZhciB4ID0gcGFyc2VGbG9hdChjc1swXSkgKyBwYXJzZUZsb2F0KHBwc1swXSk7DQogICAgICAgICAgICAgICAgdmFyIHkgPSBwYXJzZUZsb2F0KHBwc1sxXSk7DQogICAgICAgICAgICAgICAgeCA9IHgudG9zdWl0c3ZnKCk7DQogICAgICAgICAgICAgICAgeSA9IHkudG9zdWl0c3ZnKCk7DQogICAgICAgICAgICAgICAgdmFyIHRyc3RyID0gJ3RyYW5zbGF0ZSgnICsgeCArICcsJyArIHkgKyAnKSc7DQogICAgICAgICAgICB9IGVsc2UgaWYgKHBzLnN1YnN0cigwLCAyKSA9PSAnbWEnKSB7DQogICAgICAgICAgICAgICAgdmFyIHBwcyA9IHBzLm1hdGNoKC8oXC0/XGQrKFwuXGQrKT8pW1wsIF0oXC0/XGQrKFwuXGQrKT8pW1wsIF0oXC0/XGQrKFwuXGQrKT8pW1wsIF0oXC0/XGQrKFwuXGQrKT8pW1wsIF0oXC0/XGQrKFwuXGQrKT8pW1wsIF0oXC0/XGQrKFwuXGQrKT8pXCkkLyk7DQogICAgICAgICAgICAgICAgdmFyIG1hQXJyID0gW3BhcnNlRmxvYXQocHBzWzFdKSwgcGFyc2VGbG9hdChwcHNbM10pLCBwYXJzZUZsb2F0KHBwc1s1XSksIHBhcnNlRmxvYXQocHBzWzddKSwgcGFyc2VGbG9hdChwcHNbOV0pLCBwYXJzZUZsb2F0KHBwc1sxMV0pXTsNCiAgICAgICAgICAgICAgICBpZiAobWFBcnJbMV0gPT0gMCkgew0KICAgICAgICAgICAgICAgICAgICB2YXIgeCA9IHBhcnNlRmxvYXQoY3NbMF0pOw0KICAgICAgICAgICAgICAgICAgICB2YXIgeSA9IHBhcnNlRmxvYXQoY3NbMV0pICsgMTY7DQogICAgICAgICAgICAgICAgICAgIHZhciB4MSA9IHggKiBtYUFyclswXSArIHkgKiBtYUFyclsyXSArIG1hQXJyWzRdOw0KICAgICAgICAgICAgICAgICAgICB2YXIgeTEgPSB4ICogbWFBcnJbMV0gKyB5ICogbWFBcnJbM10gKyBtYUFycls1XTsNCiAgICAgICAgICAgICAgICAgICAgeDEgPSB4MS50b3N1aXRzdmcoKTsNCiAgICAgICAgICAgICAgICAgICAgeTEgPSB5MS50b3N1aXRzdmcoKTsNCiAgICAgICAgICAgICAgICAgICAgdmFyIHRyc3RyID0gJ3RyYW5zbGF0ZSgnICsgeDEgKyAnLCcgKyB5MSArICcpJzsNCiAgICAgICAgICAgICAgICB9IGVsc2Ugew0KICAgICAgICAgICAgICAgICAgICB2YXIgeCA9IHBhcnNlRmxvYXQoY3NbMF0pICsgMTY7DQogICAgICAgICAgICAgICAgICAgIHZhciB5ID0gcGFyc2VGbG9hdChjc1sxXSkgKyAxNjsNCiAgICAgICAgICAgICAgICAgICAgdmFyIHgxID0geCAqIG1hQXJyWzBdICsgeSAqIG1hQXJyWzJdICsgbWFBcnJbNF07DQogICAgICAgICAgICAgICAgICAgIHZhciB5MSA9IHggKiBtYUFyclsxXSArIHkgKiBtYUFyclszXSArIG1hQXJyWzVdOw0KICAgICAgICAgICAgICAgICAgICB4ID0gcGFyc2VGbG9hdChjc1swXSkgKyAxNjsNCiAgICAgICAgICAgICAgICAgICAgeSA9IHBhcnNlRmxvYXQoY3NbMV0pOw0KICAgICAgICAgICAgICAgICAgICB2YXIgeDIgPSB4ICogbWFBcnJbMF0gKyB5ICogbWFBcnJbMl0gKyBtYUFycls0XTsNCiAgICAgICAgICAgICAgICAgICAgdmFyIHkyID0geCAqIG1hQXJyWzFdICsgeSAqIG1hQXJyWzNdICsgbWFBcnJbNV07DQogICAgICAgICAgICAgICAgICAgIHZhciBmeCA9IHgxIDwgeDIgPyB4MS50b3N1aXRzdmcoKSA6IHgyLnRvc3VpdHN2ZygpOw0KICAgICAgICAgICAgICAgICAgICB2YXIgZnkgPSB5MSA+IHkyID8geTEudG9zdWl0c3ZnKCkgOiB5Mi50b3N1aXRzdmcoKTsNCiAgICAgICAgICAgICAgICAgICAgdmFyIG9mZnkgPSBNYXRoLmFicyh5MSAtIHkyKTsNCiAgICAgICAgICAgICAgICAgICAgdmFyIHRyc3RyID0gJ3RyYW5zbGF0ZSgnICsgZnggKyAnLCcgKyBmeSArICcpJzsNCiAgICAgICAgICAgICAgICAgICAgcG9wdXBSLnNldEF0dHJpYnV0ZSgnaGVpZ2h0Jywgb2ZmeS50b1N0cmluZygpKTsNCiAgICAgICAgICAgICAgICAgICAgcG9wdXBSLnNldEF0dHJpYnV0ZSgnd2lkdGgnLCAnMTYnKTsNCiAgICAgICAgICAgICAgICAgICAgcG9wdXBSLnNldEF0dHJpYnV0ZSgneScsICgtb2ZmeSkudG9TdHJpbmcoKSk7DQogICAgICAgICAgICAgICAgICAgIHBvcHVwUi5zZXRBdHRyaWJ1dGUoJ2ZpbGwnLCAndHJhbnNwYXJlbnQnKTsNCiAgICAgICAgICAgICAgICAgICAgcG9wdXAuYXBwZW5kQ2hpbGQocG9wdXBSKTsNCiAgICAgICAgICAgICAgICB9DQogICAgICAgICAgICB9DQogICAgICAgICAgICBvdXQuc2V0QXR0cmlidXRlKCd0cmFuc2Zvcm0nLCB0cnN0cik7DQogICAgICAgICAgICBkb2N1bWVudC5xdWVyeVNlbGVjdG9yKCcjc3ZnLWNvbnRhaW5lciA+IHN2ZzpudGgtY2hpbGQoJyArIGluZGV4ICsgJyknKS5hcHBlbmRDaGlsZChvdXQpOw0KICAgICAgICAgICAgbm90ZXNbaV0ub25tb3VzZW92ZXIgPSBmdW5jdGlvbiAoKSB7DQogICAgICAgICAgICAgICAgLy8gdmFyIG5vdGVpZCA9IG5vdGVpZDsNCiAgICAgICAgICAgICAgICB0aGlzLnF1ZXJ5U2VsZWN0b3IoJ3JlY3QnKS5zdHlsZS5kaXNwbGF5ID0gJ2Jsb2NrJzsNCiAgICAgICAgICAgICAgICBkb2N1bWVudC5xdWVyeVNlbGVjdG9yKCJnW2VkXFw6bm90ZWlkPSciICsgbm90ZWlkICsgIiddW25vdGVdIikuc3R5bGUuZGlzcGxheSA9ICdibG9jayc7DQogICAgICAgICAgICB9Ow0KICAgICAgICAgICAgbm90ZXNbaV0ub25tb3VzZW91dCA9IGZ1bmN0aW9uICgpIHsNCiAgICAgICAgICAgICAgICAvLyB2YXIgbm90ZWlkID0gbm90ZWlkOw0KICAgICAgICAgICAgICAgIC8vICAgICAgICB3aW5kb3cuZ2V0U2VsZWN0aW9uKCkucmVtb3ZlQWxsUmFuZ2VzKCk7DQogICAgICAgICAgICAgICAgdGhpcy5xdWVyeVNlbGVjdG9yKCdyZWN0Jykuc3R5bGUuZGlzcGxheSA9ICdub25lJzsNCiAgICAgICAgICAgICAgICBkb2N1bWVudC5xdWVyeVNlbGVjdG9yKCJnW2VkXFw6bm90ZWlkPSciICsgbm90ZWlkICsgIiddW25vdGVdIikuc3R5bGUuZGlzcGxheSA9ICdub25lJzsNCiAgICAgICAgICAgIH0NCiAgICAgICAgfQ0KICAgIH0NCn0gZWxzZSB7DQogICAgY29uc29sZS5sb2coJ+aKseatie+8jElF5rWP6KeI5Zmo5LiN5pSv5oyBbm90Zeino+aekO+8jOivt+S9v+eUqOWFtuS7luWGheaguOa1j+iniOWZqOOAguiwouiwou+8gScpDQp9DQovLy0tbm90ZQ0KLy9oeXBlcmxpbmstLQ0KZnVuY3Rpb24gZ2V0bWF4bGVuKGFyciwgYnJyKSB7DQogICAgdmFyIGwgPSAwOw0KICAgIHZhciBsbCA9IDA7DQogICAgZm9yICh2YXIgaiA9IDA7IGogPCBhcnIubGVuZ3RoOyBqKyspIHsNCiAgICAgICAgdmFyIGUgPSBkb2N1bWVudC5jcmVhdGVFbGVtZW50TlMoJ2h0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnJywgJ3RleHQnKTsNCiAgICAgICAgaWYgKCFpc05hTihsaW5rYXJyW2pdKSkgew0KICAgICAgICAgICAgZS50ZXh0Q29udGVudCA9ICdQYWdlLScgKyBhcnJbal07DQogICAgICAgIH0gZWxzZSB7DQogICAgICAgICAgICBlLnRleHRDb250ZW50ID0gYXJyW2pdOw0KICAgICAgICB9DQogICAgICAgIGUuc3R5bGUuZm9udFNpemUgPSAnMTJweCc7DQogICAgICAgIGRvY3VtZW50LmJvZHkuZ2V0RWxlbWVudHNCeVRhZ05hbWUoJ3N2ZycpWzBdLmFwcGVuZENoaWxkKGUpOw0KICAgICAgICB2YXIgZXcgPSBlLmdldEJCb3goKS53aWR0aDsNCiAgICAgICAgZG9jdW1lbnQuYm9keS5nZXRFbGVtZW50c0J5VGFnTmFtZSgnc3ZnJylbMF0ucmVtb3ZlQ2hpbGQoZSk7DQogICAgICAgIHZhciBoID0gZG9jdW1lbnQuY3JlYXRlRWxlbWVudE5TKCdodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZycsICd0ZXh0Jyk7DQogICAgICAgIGgudGV4dENvbnRlbnQgPSBicnJbal07DQogICAgICAgIGguc3R5bGUuZm9udFNpemUgPSAnMTJweCc7DQogICAgICAgIGguc3R5bGUuZm9udFdlaWdodCA9ICdib2xkJzsNCiAgICAgICAgZG9jdW1lbnQuYm9keS5nZXRFbGVtZW50c0J5VGFnTmFtZSgnc3ZnJylbMF0uYXBwZW5kQ2hpbGQoaCk7DQogICAgICAgIHZhciBodyA9IGguZ2V0QkJveCgpLndpZHRoOw0KICAgICAgICBkb2N1bWVudC5ib2R5LmdldEVsZW1lbnRzQnlUYWdOYW1lKCdzdmcnKVswXS5yZW1vdmVDaGlsZChoKTsNCiAgICAgICAgbCA9IGV3ID4gaHcgPyBldyA6IGh3Ow0KICAgICAgICBsbCA9IGwgPiBsbCA/IGwgOiBsbDsNCiAgICB9DQogICAgcmV0dXJuIGxsOw0KfQ0Kc3ZnRWxlbXMgPSBkb2N1bWVudC5xdWVyeVNlbGVjdG9yQWxsKCJzdmciKTsNCmZvciAobGV0IGluZGV4ID0gMTsgaW5kZXggPD0gc3ZnRWxlbXMubGVuZ3RoOyBpbmRleCsrKSB7DQogICAgbGV0IHN2Z0VsZW0gPSBzdmdFbGVtc1tpbmRleF07DQogICAgbGV0IGxpbmtzID0gZG9jdW1lbnQucXVlcnlTZWxlY3RvckFsbCgic3ZnOm50aC1jaGlsZCgiICsgaW5kZXggKyAiKSBnPmdbZWRcXDpoeXBlcmxpbmtdIikNCiAgICBjb25zb2xlLmxvZyhsaW5rcyk7DQogICAgLy8gdmFyIGxpbmtzPWRvY3VtZW50LnF1ZXJ5U2VsZWN0b3JBbGwoJ2c+Z1tlZFxcOmh5cGVybGlua10nKTsNCiAgICBmb3IgKHZhciBpID0gMDsgaSA8IGxpbmtzLmxlbmd0aDsgaSsrKSB7DQogICAgICAgIHZhciBwb3B1cCA9IGRvY3VtZW50LmNyZWF0ZUVsZW1lbnROUygnaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnLCAnZycpOw0KICAgICAgICB2YXIgcG9wdXBSID0gZG9jdW1lbnQuY3JlYXRlRWxlbWVudE5TKCdodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZycsICdyZWN0Jyk7DQogICAgICAgIHZhciBob3ZlciA9IGRvY3VtZW50LmNyZWF0ZUVsZW1lbnROUygnaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnLCAncmVjdCcpOw0KICAgICAgICB2YXIgZGVzY2FyciA9IFtdOw0KICAgICAgICB2YXIgbGlua2FyciA9IFtdOw0KICAgICAgICBob3Zlci5zZXRBdHRyaWJ1dGUoJ2ZpbGwnLCAnI2NkY2RmZicpOw0KICAgICAgICBob3Zlci5zZXRBdHRyaWJ1dGUoJ3gnLCAnMCcpOw0KICAgICAgICBob3Zlci5zZXRBdHRyaWJ1dGUoJ3knLCAnMCcpOw0KICAgICAgICBob3Zlci5zZXRBdHRyaWJ1dGUoJ2hlaWdodCcsICcxNicpOw0KICAgICAgICBob3Zlci5zZXRBdHRyaWJ1dGUoJ3dpZHRoJywgJzE2Jyk7DQogICAgICAgIGhvdmVyLnNldEF0dHJpYnV0ZSgnZmlsbC1vcGFjaXR5JywgJzAuNicpOw0KICAgICAgICBob3Zlci5zZXRBdHRyaWJ1dGUoJ3RyYW5zZm9ybScsIGxpbmtzW2ldLnF1ZXJ5U2VsZWN0b3IoJ3VzZScpLmdldEF0dHJpYnV0ZSgndHJhbnNmb3JtJykpOw0KICAgICAgICBob3Zlci5zdHlsZS5kaXNwbGF5ID0gJ25vbmUnOw0KICAgICAgICBsaW5rc1tpXS5hcHBlbmRDaGlsZChob3Zlcik7DQogICAgICAgIC8vIGNvbnNvbGUubG9nKGxpbmtzW2ldLmdldEF0dHJpYnV0ZSgnZWQ6aHlwZXJsaW5rJykpOw0KICAgICAgICB2YXIgYSA9IEpTT04ucGFyc2UobGlua3NbaV0uZ2V0QXR0cmlidXRlKCdlZDpoeXBlcmxpbmsnKSk7DQogICAgICAgIHZhciBjcyA9IGxpbmtzW2ldLnF1ZXJ5U2VsZWN0b3IoJ3VzZScpLmdldEF0dHJpYnV0ZSgndHJhbnNmb3JtJykubWF0Y2goL1woKFxTKnxcUypcc1xTKilcKS8pWzFdLnNwbGl0KC8gfCwvKTsNCiAgICAgICAgdmFyIHBzID0gbGlua3NbaV0ucGFyZW50Tm9kZS5nZXRBdHRyaWJ1dGUoJ3RyYW5zZm9ybScpOw0KICAgICAgICBpZiAocHMuc3Vic3RyKDAsIDIpID09ICd0cicpIHsNCiAgICAgICAgICAgIHZhciBwcHMgPSBwcy5tYXRjaCgvXCgoXFMqfFxTKlxzXFMqKVwpLylbMV0uc3BsaXQoLyB8LC8pOw0KICAgICAgICAgICAgdmFyIHggPSBwYXJzZUZsb2F0KGNzWzBdKSArIHBhcnNlRmxvYXQocHBzWzBdKTsNCiAgICAgICAgICAgIHZhciB5ID0gcGFyc2VGbG9hdChwcHNbMV0pOw0KICAgICAgICAgICAgeCA9IHgudG9zdWl0c3ZnKCk7DQogICAgICAgICAgICB5ID0geS50b3N1aXRzdmcoKTsNCiAgICAgICAgICAgIHZhciB0cnN0ciA9ICd0cmFuc2xhdGUoJyArIHggKyAnLCcgKyB5ICsgJyknOw0KICAgICAgICB9IGVsc2UgaWYgKHBzLnN1YnN0cigwLCAyKSA9PSAnbWEnKSB7DQogICAgICAgICAgICB2YXIgcHBzID0gcHMubWF0Y2goLyhcLT9cZCsoXC5cZCspPylbXCwgXShcLT9cZCsoXC5cZCspPylbXCwgXShcLT9cZCsoXC5cZCspPylbXCwgXShcLT9cZCsoXC5cZCspPylbXCwgXShcLT9cZCsoXC5cZCspPylbXCwgXShcLT9cZCsoXC5cZCspPylcKSQvKTsNCiAgICAgICAgICAgIHZhciBtYUFyciA9IFtwYXJzZUZsb2F0KHBwc1sxXSksIHBhcnNlRmxvYXQocHBzWzNdKSwgcGFyc2VGbG9hdChwcHNbNV0pLCBwYXJzZUZsb2F0KHBwc1s3XSksIHBhcnNlRmxvYXQocHBzWzldKSwgcGFyc2VGbG9hdChwcHNbMTFdKV07DQogICAgICAgICAgICBpZiAobWFBcnJbMV0gPT0gMCkgew0KICAgICAgICAgICAgICAgIHZhciB4ID0gcGFyc2VGbG9hdChjc1swXSk7DQogICAgICAgICAgICAgICAgdmFyIHkgPSBwYXJzZUZsb2F0KGNzWzFdKSArIDE2Ow0KICAgICAgICAgICAgICAgIHZhciB4MSA9IHggKiBtYUFyclswXSArIHkgKiBtYUFyclsyXSArIG1hQXJyWzRdOw0KICAgICAgICAgICAgICAgIHZhciB5MSA9IHggKiBtYUFyclsxXSArIHkgKiBtYUFyclszXSArIG1hQXJyWzVdOw0KICAgICAgICAgICAgICAgIHgxID0geDEudG9zdWl0c3ZnKCk7DQogICAgICAgICAgICAgICAgeTEgPSB5MS50b3N1aXRzdmcoKTsNCiAgICAgICAgICAgICAgICB2YXIgdHJzdHIgPSAndHJhbnNsYXRlKCcgKyB4MSArICcsJyArIHkxICsgJyknOw0KICAgICAgICAgICAgfSBlbHNlIHsNCiAgICAgICAgICAgICAgICB2YXIgeCA9IHBhcnNlRmxvYXQoY3NbMF0pICsgMTY7DQogICAgICAgICAgICAgICAgdmFyIHkgPSBwYXJzZUZsb2F0KGNzWzFdKSArIDE2Ow0KICAgICAgICAgICAgICAgIHZhciB4MSA9IHggKiBtYUFyclswXSArIHkgKiBtYUFyclsyXSArIG1hQXJyWzRdOw0KICAgICAgICAgICAgICAgIHZhciB5MSA9IHggKiBtYUFyclsxXSArIHkgKiBtYUFyclszXSArIG1hQXJyWzVdOw0KICAgICAgICAgICAgICAgIHggPSBwYXJzZUZsb2F0KGNzWzBdKSArIDE2Ow0KICAgICAgICAgICAgICAgIHkgPSBwYXJzZUZsb2F0KGNzWzFdKTsNCiAgICAgICAgICAgICAgICB2YXIgeDIgPSB4ICogbWFBcnJbMF0gKyB5ICogbWFBcnJbMl0gKyBtYUFycls0XTsNCiAgICAgICAgICAgICAgICB2YXIgeTIgPSB4ICogbWFBcnJbMV0gKyB5ICogbWFBcnJbM10gKyBtYUFycls1XTsNCiAgICAgICAgICAgICAgICB2YXIgZnggPSB4MSA8IHgyID8geDEudG9zdWl0c3ZnKCkgOiB4Mi50b3N1aXRzdmcoKTsNCiAgICAgICAgICAgICAgICB2YXIgZnkgPSB5MSA+IHkyID8geTEudG9zdWl0c3ZnKCkgOiB5Mi50b3N1aXRzdmcoKTsNCiAgICAgICAgICAgICAgICB2YXIgb2ZmeSA9IE1hdGguYWJzKHkxIC0geTIpOw0KICAgICAgICAgICAgICAgIHZhciB0cnN0ciA9ICd0cmFuc2xhdGUoJyArIGZ4ICsgJywnICsgZnkgKyAnKSc7DQogICAgICAgICAgICAgICAgcG9wdXBSLnNldEF0dHJpYnV0ZSgnaGVpZ2h0Jywgb2ZmeS50b1N0cmluZygpKTsNCiAgICAgICAgICAgICAgICBwb3B1cFIuc2V0QXR0cmlidXRlKCd3aWR0aCcsICcxNicpOw0KICAgICAgICAgICAgICAgIHBvcHVwUi5zZXRBdHRyaWJ1dGUoJ3knLCAoLW9mZnkpLnRvU3RyaW5nKCkpOw0KICAgICAgICAgICAgICAgIHBvcHVwUi5zZXRBdHRyaWJ1dGUoJ2ZpbGwnLCAndHJhbnNwYXJlbnQnKTsNCiAgICAgICAgICAgICAgICBwb3B1cC5hcHBlbmRDaGlsZChwb3B1cFIpOw0KICAgICAgICAgICAgfQ0KICAgICAgICB9DQogICAgICAgIHZhciBhbCA9IGEubGVuZ3RoOw0KICAgICAgICBmb3IgKHZhciBqID0gMDsgaiA8IGFsOyBqKyspIHsNCiAgICAgICAgICAgIGxpbmthcnIucHVzaChhW2pdLmxpbmspOw0KICAgICAgICAgICAgZGVzY2Fyci5wdXNoKGFbal0uZGVzYyk7DQogICAgICAgIH0NCiAgICAgICAgcG9wdXAuc2V0QXR0cmlidXRlKCd0cmFuc2Zvcm0nLCB0cnN0cik7DQogICAgICAgIHZhciBtYXggPSBnZXRtYXhsZW4obGlua2FyciwgZGVzY2Fycik7DQogICAgICAgIGZvciAodmFyIGsgPSAwOyBrIDwgYWw7IGsrKykgew0KICAgICAgICAgICAgdmFyIGMgPSBkb2N1bWVudC5jcmVhdGVFbGVtZW50TlMoJ2h0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnJywgJ2EnKTsNCiAgICAgICAgICAgIHZhciBkID0gZG9jdW1lbnQuY3JlYXRlRWxlbWVudE5TKCdodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZycsICdyZWN0Jyk7DQogICAgICAgICAgICB2YXIgZSA9IGRvY3VtZW50LmNyZWF0ZUVsZW1lbnROUygnaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnLCAndGV4dCcpOw0KICAgICAgICAgICAgdmFyIGYgPSBkb2N1bWVudC5jcmVhdGVFbGVtZW50TlMoJ2h0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnJywgJ3RleHQnKTsNCiAgICAgICAgICAgIGlmIChpc05hTihsaW5rYXJyW2tdKSkgew0KICAgICAgICAgICAgICAgIGMuc2V0QXR0cmlidXRlTlMoImh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiwgInhsaW5rIiwgImh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiKTsNCiAgICAgICAgICAgICAgICBjLnNldEF0dHJpYnV0ZU5TKCJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiwgImhyZWYiLCBsaW5rYXJyW2tdKTsNCiAgICAgICAgICAgICAgICBjLnNldEF0dHJpYnV0ZSgndGFyZ2V0JywgJ19ibGFuaycpOw0KICAgICAgICAgICAgICAgIGUudGV4dENvbnRlbnQgPSBsaW5rYXJyW2tdOw0KICAgICAgICAgICAgfSBlbHNlIHsNCiAgICAgICAgICAgICAgICBlLnRleHRDb250ZW50ID0gJ1BhZ2UtJyArIGxpbmthcnJba107DQogICAgICAgICAgICAgICAgYy5zZXRBdHRyaWJ1dGVOUygiaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciLCAieGxpbmsiLCAiaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIpOw0KICAgICAgICAgICAgICAgIGMuc2V0QXR0cmlidXRlTlMoImh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiLCAiaHJlZiIsICIjIiArIGxpbmthcnJba10pOw0KICAgICAgICAgICAgfQ0KICAgICAgICAgICAgZC5zZXRBdHRyaWJ1dGUoJ3dpZHRoJywgbWF4ICsgMTApOw0KICAgICAgICAgICAgZC5zZXRBdHRyaWJ1dGUoJ2hlaWdodCcsICczMycpOw0KICAgICAgICAgICAgZC5zZXRBdHRyaWJ1dGUoJ3N0cm9rZScsICcjOTk5OTk5Jyk7DQogICAgICAgICAgICBkLnNldEF0dHJpYnV0ZSgnZmlsbCcsICd3aGl0ZScpOw0KICAgICAgICAgICAgZC5zZXRBdHRyaWJ1dGUoJ3knLCAzMyAqIGspOw0KICAgICAgICAgICAgZi50ZXh0Q29udGVudCA9IGRlc2NhcnJba107DQogICAgICAgICAgICBmLnN0eWxlLmZvbnRTaXplID0gJzEycHgnOw0KICAgICAgICAgICAgZi5zdHlsZS5mb250V2VpZ2h0ID0gJ2JvbGQnOw0KICAgICAgICAgICAgZi5zZXRBdHRyaWJ1dGUoJ3gnLCA1KTsNCiAgICAgICAgICAgIGYuc2V0QXR0cmlidXRlKCd5JywgMzMgKiBrICsgMTIpOw0KICAgICAgICAgICAgZS5zdHlsZS5mb250U2l6ZSA9ICcxMnB4JzsNCiAgICAgICAgICAgIGUuc2V0QXR0cmlidXRlKCd5JywgMzMgKiBrICsgMjgpOw0KICAgICAgICAgICAgZS5zZXRBdHRyaWJ1dGUoJ3gnLCA1KTsNCiAgICAgICAgICAgIGMuYXBwZW5kQ2hpbGQoZCk7DQogICAgICAgICAgICBjLmFwcGVuZENoaWxkKGYpOw0KICAgICAgICAgICAgYy5hcHBlbmRDaGlsZChlKTsNCiAgICAgICAgICAgIGMub25tb3VzZW92ZXIgPSBmdW5jdGlvbiAoKSB7DQogICAgICAgICAgICAgICAgdGhpcy5xdWVyeVNlbGVjdG9yKCdyZWN0Jykuc3R5bGUuZmlsbCA9ICcjZTFlMWZmJw0KICAgICAgICAgICAgfTsNCiAgICAgICAgICAgIGMub25tb3VzZW91dCA9IGZ1bmN0aW9uICgpIHsNCiAgICAgICAgICAgICAgICB0aGlzLnF1ZXJ5U2VsZWN0b3IoJ3JlY3QnKS5zdHlsZS5maWxsID0gJ3doaXRlJw0KICAgICAgICAgICAgfTsNCiAgICAgICAgICAgIHBvcHVwLmFwcGVuZENoaWxkKGMpOw0KICAgICAgICB9DQogICAgICAgIHBvcHVwLnN0eWxlLmRpc3BsYXkgPSAnbm9uZSc7DQogICAgICAgIHBvcHVwLnNldEF0dHJpYnV0ZSgnaHlwZXJsaW5rJywgJycpOw0KICAgICAgICBwb3B1cC5zZXRBdHRyaWJ1dGUoJ2VkOmxpbmtpZCcsIGxpbmtzW2ldLnBhcmVudE5vZGUucGFyZW50Tm9kZS5pZCArICIsIiArIGxpbmtzW2ldLnBhcmVudE5vZGUuaWQpOw0KICAgICAgICBwb3B1cC5vbm1vdXNlb3ZlciA9IGZ1bmN0aW9uICgpIHsNCiAgICAgICAgICAgIHRoaXMuc3R5bGUuZGlzcGxheSA9ICdibG9jayc7DQogICAgICAgIH07DQogICAgICAgIHBvcHVwLm9uY2xpY2sgPSBmdW5jdGlvbiAoKSB7DQogICAgICAgICAgICB0aGlzLnN0eWxlLmRpc3BsYXkgPSAnbm9uZSc7DQogICAgICAgIH07DQogICAgICAgIHBvcHVwLm9ubW91c2VvdXQgPSBmdW5jdGlvbiAoKSB7DQogICAgICAgICAgICB0aGlzLnN0eWxlLmRpc3BsYXkgPSAnbm9uZSc7DQogICAgICAgIH07DQogICAgICAgIGRvY3VtZW50LnF1ZXJ5U2VsZWN0b3IoJyNzdmctY29udGFpbmVyID4gc3ZnOm50aC1jaGlsZCgnICsgaW5kZXggKyAnKScpLmFwcGVuZENoaWxkKHBvcHVwKTsNCiAgICAgICAgbGlua3NbaV0ub25tb3VzZW92ZXIgPSBmdW5jdGlvbiAoKSB7DQogICAgICAgICAgICB2YXIgbGlua2lkID0gdGhpcy5wYXJlbnROb2RlLnBhcmVudE5vZGUuaWQgKyAiLCIgKyB0aGlzLnBhcmVudE5vZGUuaWQ7DQogICAgICAgICAgICB0aGlzLnF1ZXJ5U2VsZWN0b3IoJ3JlY3QnKS5zdHlsZS5kaXNwbGF5ID0gJ2Jsb2NrJzsNCiAgICAgICAgICAgIGRvY3VtZW50LnF1ZXJ5U2VsZWN0b3IoImdbZWRcXDpsaW5raWQ9JyIgKyBsaW5raWQgKyAiJ11baHlwZXJsaW5rXSIpLnN0eWxlLmRpc3BsYXkgPSAnYmxvY2snOw0KICAgICAgICAgICAgLy8gcG9wdXAuc3R5bGUuZGlzcGxheSA9ICdibG9jayc7DQogICAgICAgIH0NCiAgICAgICAgbGlua3NbaV0ub25tb3VzZW91dCA9IGZ1bmN0aW9uICgpIHsNCiAgICAgICAgICAgIC8vIHZhciBsaW5raWQgPSB0aGlzLnBhcmVudE5vZGUuaWQ7DQogICAgICAgICAgICB2YXIgbGlua2lkID0gdGhpcy5wYXJlbnROb2RlLnBhcmVudE5vZGUuaWQgKyAiLCIgKyB0aGlzLnBhcmVudE5vZGUuaWQ7DQogICAgICAgICAgICB0aGlzLnF1ZXJ5U2VsZWN0b3IoJ3JlY3QnKS5zdHlsZS5kaXNwbGF5ID0gJ25vbmUnOw0KICAgICAgICAgICAgZG9jdW1lbnQucXVlcnlTZWxlY3RvcigiZ1tlZFxcOmxpbmtpZD0nIiArIGxpbmtpZCArICInXVtoeXBlcmxpbmtdIikuc3R5bGUuZGlzcGxheSA9ICdub25lJzsNCiAgICAgICAgICAgIC8vIHBvcHVwLnN0eWxlLmRpc3BsYXkgPSAnbm9uZSc7DQogICAgICAgIH0NCiAgICB9DQp9DQoNCi8vLS1oeXBlcmxpbmsNCi8vaW5pdGlhbGl6ZS0tDQp2YXIgc2hhcGUgPSBkb2N1bWVudC5xdWVyeVNlbGVjdG9yQWxsKCdnW2VkXFw6dG9ndG9waWNpZF0nKTsNCnZhciBtSWQgPSBkb2N1bWVudC5xdWVyeVNlbGVjdG9yQWxsKCdnW2VkXFw6dG9waWN0eXBlXScpOw0KdmFyIGRhdGFUcmVlID0ge307DQp2YXIgZXh0cmFSZWxhID0ge307DQp2YXIgY2hlY2tJRCA9ICcnOw0KZm9yICh2YXIgaSA9IDA7IGkgPCBtSWQubGVuZ3RoOyBpKyspIHsNCiAgICB2YXIgdHlwZSA9IG1JZFtpXS5nZXRBdHRyaWJ1dGUoJ2VkOnRvcGljdHlwZScpOw0KICAgIHZhciBzaWQgPSBtSWRbaV0uaWQ7DQogICAgaWYgKHR5cGUgIT09ICdjYWxsb3V0Jykgew0KICAgICAgICBpbml0KHNpZCwgZGF0YVRyZWUpDQogICAgfQ0KfQ0KZnVuY3Rpb24gaW5pdChpZCwgb2JqKSB7DQogICAgdmFyIGNoaWxkcyA9IGRvY3VtZW50LnF1ZXJ5U2VsZWN0b3JBbGwoImdbZWRcXDpwYXJlbnRpZD0nIiArIGlkICsgIiddOm5vdChbZWRcXDp0b3BpY3R5cGVdKSIpOw0KICAgIHZhciBjYWxscyA9IGRvY3VtZW50LnF1ZXJ5U2VsZWN0b3JBbGwoImdbZWRcXDpwYXJlbnRpZD0nIiArIGlkICsgIiddW2VkXFw6dG9waWN0eXBlXSIpOw0KICAgIHZhciBzdW1tYXJ5ID0gZG9jdW1lbnQucXVlcnlTZWxlY3RvckFsbCgicGF0aFtlZFxcOnBhcmVudGlkKj0nIiArIGlkICsgIiddW2VkXFw6dHlwZT0nc3VtbWFyeSddIik7DQogICAgdmFyIGJvdW5kYXJ5ID0gZG9jdW1lbnQucXVlcnlTZWxlY3RvckFsbCgicGF0aFtlZFxcOnBhcmVudGlkKj0nIiArIGlkICsgIiddW2VkXFw6dHlwZT0nYm91bmRhcnknXSIpOw0KICAgIHZhciByZWxhZnJvbSA9IGRvY3VtZW50LnF1ZXJ5U2VsZWN0b3JBbGwoImdbZWRcXDpmcm9taWQqPSciICsgaWQgKyAiJ11bZWRcXDp0eXBlPSdyZWxhdGlvbiddIik7DQogICAgdmFyIHJlbGF0byA9IGRvY3VtZW50LnF1ZXJ5U2VsZWN0b3JBbGwoImdbZWRcXDp0b2lkKj0nIiArIGlkICsgIiddW2VkXFw6dHlwZT0ncmVsYXRpb24nXSIpOw0KICAgIG9ialsibSIgKyBpZF0gPSB7fTsNCiAgICB2YXIgdHlwZSA9IGRvY3VtZW50LmdldEVsZW1lbnRCeUlkKGlkKS5nZXRBdHRyaWJ1dGUoJ2VkOnRvcGljdHlwZScpOw0KICAgIHZhciBpdyA9IGRvY3VtZW50LmdldEVsZW1lbnRCeUlkKGlkKS5nZXRBdHRyaWJ1dGUoJ2VkOndpZHRoJyk7DQogICAgdmFyIGloID0gZG9jdW1lbnQuZ2V0RWxlbWVudEJ5SWQoaWQpLmdldEF0dHJpYnV0ZSgnZWQ6aGVpZ2h0Jyk7DQogICAgaWYgKHR5cGUpIHsNCiAgICAgICAgb2JqWyJtIiArIGlkXS50eXBlID0gdHlwZTsNCiAgICB9DQogICAgaWYgKGl3ICYmIGloKSB7DQogICAgICAgIG9ialsibSIgKyBpZF0ud2lkdGggPSBpdzsNCiAgICAgICAgb2JqWyJtIiArIGlkXS5oZWlnaHQgPSBpaDsNCiAgICB9DQogICAgaWYgKHJlbGFmcm9tLmxlbmd0aCAhPT0gMCkgew0KICAgICAgICBvYmpbIm0iICsgaWRdLnJlbGFmcm9tID0ge307DQogICAgICAgIGZvciAodmFyIGkgPSAwOyBpIDwgcmVsYWZyb20ubGVuZ3RoOyBpKyspIHsNCiAgICAgICAgICAgIHZhciBpbmRleGlkID0gcmVsYWZyb21baV0uaWQ7DQogICAgICAgICAgICB2YXIgdG9pZCA9IGRvY3VtZW50LmdldEVsZW1lbnRCeUlkKGluZGV4aWQpLmdldEF0dHJpYnV0ZSgnZWQ6dG9pZCcpOw0KICAgICAgICAgICAgaWYgKGV4dHJhUmVsYVtpbmRleGlkXSA9PT0gdW5kZWZpbmVkKSB7DQogICAgICAgICAgICAgICAgZXh0cmFSZWxhW2luZGV4aWRdID0gew0KICAgICAgICAgICAgICAgICAgICBpZDogaW5kZXhpZCwNCiAgICAgICAgICAgICAgICAgICAgZnJvbWlkOiBpZCwNCiAgICAgICAgICAgICAgICAgICAgdG9pZDogdG9pZCwNCiAgICAgICAgICAgICAgICAgICAgaXNDOiBmYWxzZQ0KICAgICAgICAgICAgICAgIH07DQogICAgICAgICAgICB9DQogICAgICAgICAgICBvYmpbIm0iICsgaWRdLnJlbGFmcm9tW2luZGV4aWRdID0ge307DQogICAgICAgICAgICBvYmpbIm0iICsgaWRdLnJlbGFmcm9tLmRpc3BsYXkgPSBkb2N1bWVudC5nZXRFbGVtZW50QnlJZChpZCkuc3R5bGUuZGlzcGxheSAhPT0gJ25vbmUnID8gJ2Jsb2NrJyA6ICdub25lJzsNCiAgICAgICAgfQ0KICAgIH0NCiAgICBpZiAocmVsYXRvLmxlbmd0aCAhPT0gMCkgew0KICAgICAgICBvYmpbIm0iICsgaWRdLnJlbGF0byA9IHt9Ow0KICAgICAgICBmb3IgKHZhciBpID0gMDsgaSA8IHJlbGF0by5sZW5ndGg7IGkrKykgew0KICAgICAgICAgICAgdmFyIGluZGV4aWQgPSByZWxhdG9baV0uaWQ7DQogICAgICAgICAgICB2YXIgZnJvbWlkID0gZG9jdW1lbnQuZ2V0RWxlbWVudEJ5SWQoaW5kZXhpZCkuZ2V0QXR0cmlidXRlKCdlZDpmcm9taWQnKTsNCiAgICAgICAgICAgIGlmIChleHRyYVJlbGFbaW5kZXhpZF0gPT09IHVuZGVmaW5lZCkgew0KICAgICAgICAgICAgICAgIGV4dHJhUmVsYVtpbmRleGlkXSA9IHsNCiAgICAgICAgICAgICAgICAgICAgaWQ6IGluZGV4aWQsDQogICAgICAgICAgICAgICAgICAgIGZyb21pZDogZnJvbWlkLA0KICAgICAgICAgICAgICAgICAgICB0b2lkOiBpZCwNCiAgICAgICAgICAgICAgICAgICAgaXNDOiBmYWxzZQ0KICAgICAgICAgICAgICAgIH07DQogICAgICAgICAgICB9DQogICAgICAgICAgICBvYmpbIm0iICsgaWRdLnJlbGF0b1tpbmRleGlkXSA9IHt9Ow0KICAgICAgICAgICAgb2JqWyJtIiArIGlkXS5yZWxhdG8uZGlzcGxheSA9IGRvY3VtZW50LmdldEVsZW1lbnRCeUlkKGlkKS5zdHlsZS5kaXNwbGF5ICE9PSAnbm9uZScgPyAnYmxvY2snIDogJ25vbmUnOw0KICAgICAgICB9DQogICAgfQ0KICAgIGlmIChjaGlsZHMubGVuZ3RoICE9PSAwKSB7DQogICAgICAgIG9ialsibSIgKyBpZF0uY2hpbGQgPSB7fTsNCiAgICAgICAgaWYgKGRvY3VtZW50LnF1ZXJ5U2VsZWN0b3IoImdbZWRcXDp0b2d0b3BpY2lkPSciICsgaWQgKyAiJ10iKSkgew0KICAgICAgICAgICAgLy8gY29uc29sZS5sb2coZG9jdW1lbnQucXVlcnlTZWxlY3RvcigiZ1tlZFxcOnRvZ3RvcGljaWQ9JyIgKyBpZCArICInXSIpLmNoaWxkTm9kZXNbMF0uZ2V0QXR0cmlidXRlKCd4bGluazpocmVmJykpOw0KICAgICAgICAgICAgdmFyIHRvZyA9IGRvY3VtZW50LnF1ZXJ5U2VsZWN0b3IoImdbZWRcXDp0b2d0b3BpY2lkPSciICsgaWQgKyAiJ10iKS5nZXRFbGVtZW50c0J5VGFnTmFtZSgndXNlJylbMF0uZ2V0QXR0cmlidXRlKCd4bGluazpocmVmJykuc2xpY2UoMSk7DQogICAgICAgICAgICBvYmpbIm0iICsgaWRdLnRvZ3R5cGUgPSB0b2c7DQogICAgICAgIH0NCiAgICAgICAgZm9yICh2YXIgaSA9IDA7IGkgPCBjaGlsZHMubGVuZ3RoOyBpKyspIHsNCiAgICAgICAgICAgIHZhciBjaWQgPSBjaGlsZHNbaV0uaWQ7DQogICAgICAgICAgICBpbml0KGNpZCwgb2JqWyJtIiArIGlkXS5jaGlsZCk7DQogICAgICAgIH0NCiAgICB9DQogICAgaWYgKGNhbGxzLmxlbmd0aCAhPT0gMCkgew0KICAgICAgICBvYmpbIm0iICsgaWRdLmNhbGwgPSB7fTsNCiAgICAgICAgZm9yICh2YXIgaSA9IDA7IGkgPCBjYWxscy5sZW5ndGg7IGkrKykgew0KICAgICAgICAgICAgdmFyIGNpZCA9IGNhbGxzW2ldLmlkOw0KICAgICAgICAgICAgaW5pdChjaWQsIG9ialsibSIgKyBpZF0uY2FsbCk7DQogICAgICAgIH0NCiAgICB9DQogICAgaWYgKGJvdW5kYXJ5Lmxlbmd0aCAhPT0gMCkgew0KICAgICAgICBvYmpbIm0iICsgaWRdLmJvdW5kYXJ5ID0ge307DQogICAgICAgIGZvciAodmFyIGkgPSAwOyBpIDwgYm91bmRhcnkubGVuZ3RoOyBpKyspIHsNCiAgICAgICAgICAgIHZhciBjaWQgPSBib3VuZGFyeVtpXS5pZDsNCiAgICAgICAgICAgIGluaXQoY2lkLCBvYmpbIm0iICsgaWRdLmJvdW5kYXJ5KTsNCiAgICAgICAgfQ0KICAgIH0NCiAgICBpZiAoc3VtbWFyeS5sZW5ndGggIT09IDApIHsNCiAgICAgICAgb2JqWyJtIiArIGlkXS5zdW1tYXJ5ID0ge307DQogICAgICAgIGZvciAodmFyIGkgPSAwOyBpIDwgc3VtbWFyeS5sZW5ndGg7IGkrKykgew0KICAgICAgICAgICAgdmFyIGNpZCA9IHN1bW1hcnlbaV0uaWQ7DQogICAgICAgICAgICBpbml0KGNpZCwgb2JqWyJtIiArIGlkXS5zdW1tYXJ5KTsNCiAgICAgICAgfQ0KICAgIH0NCn0NCi8vLS1pbml0aWFsaXplDQovL3RvZ2dsZWRpc3BsYXktLQ0KdmFyIGNoYWluQXJyID0gW107DQpmdW5jdGlvbiBnZXRjaGFpbihpZCkgew0KICAgIGNoYWluQXJyLnVuc2hpZnQoJ20nICsgaWQpOw0KICAgIHZhciBwYXJlbnQgPSBkb2N1bWVudC5nZXRFbGVtZW50QnlJZChpZCkuZ2V0QXR0cmlidXRlKCdlZDpwYXJlbnRpZCcpOw0KICAgIGlmICghcGFyZW50KSB7DQogICAgICAgIHJldHVybjsNCiAgICB9DQogICAgaWYgKHBhcmVudC5tYXRjaCgvXCwvKSkgew0KICAgICAgICBwYXJlbnQgPSBwYXJlbnQubWF0Y2goL1xkKyg/PVwsKS8pWzBdDQogICAgfQ0KICAgIGdldGNoYWluKHBhcmVudCk7DQp9DQpmdW5jdGlvbiBnZXRvYmooaWQpIHsNCiAgICBjaGFpbkFyciA9IFtdOw0KICAgIGdldGNoYWluKGlkKTsNCiAgICB2YXIgbWFpbiA9IGNoYWluQXJyWzBdOw0KICAgIGlmIChjaGFpbkFyci5sZW5ndGggPiAxKSB7DQogICAgICAgIHZhciBvYmogPSBkYXRhVHJlZVttYWluXTsNCiAgICAgICAgLy8gY29uc29sZS5sb2coY2hhaW5BcnIpOw0KICAgICAgICBmb3IgKHZhciBpID0gMTsgaSA8IGNoYWluQXJyLmxlbmd0aDsgaSsrKSB7DQogICAgICAgICAgICB2YXIgYSA9IGNoYWluQXJyW2ldOw0KICAgICAgICAgICAgZm9yICh2YXIgaiA9IDA7IGogPCBPYmplY3Qua2V5cyhvYmopLmxlbmd0aDsgaisrKSB7DQogICAgICAgICAgICAgICAgdmFyIGNvYmogPSBvYmpbT2JqZWN0LmtleXMob2JqKVtqXV1bYV07DQogICAgICAgICAgICAgICAgaWYgKGNvYmopIHsNCiAgICAgICAgICAgICAgICAgICAgb2JqID0gY29iajsNCiAgICAgICAgICAgICAgICAgICAgY29udGludWUNCiAgICAgICAgICAgICAgICB9DQogICAgICAgICAgICB9DQogICAgICAgIH0NCiAgICAgICAgcmV0dXJuIG9iag0KICAgIH0gZWxzZSB7DQogICAgICAgIHZhciBvYmogPSBkYXRhVHJlZVttYWluXTsNCiAgICAgICAgcmV0dXJuIG9iag0KICAgIH0NCg0KfQ0KZm9yICh2YXIgaSA9IDA7IGkgPCBzaGFwZS5sZW5ndGg7IGkrKykgew0KICAgIHNoYXBlW2ldLm9uY2xpY2sgPSBmdW5jdGlvbiAoKSB7DQogICAgICAgIHZhciBpZCA9IE51bWJlcih0aGlzLmdldEF0dHJpYnV0ZSgnZWQ6dG9ndG9waWNpZCcpKTsNCiAgICAgICAgdmFyIG9iaiA9IGdldG9iaihpZCk7DQoNCiAgICAgICAgdmFyIHR5cGUgPSBvYmoudG9ndHlwZSA9PT0gJ21pbnVzJyA/ICdwbHVzJyA6ICdtaW51cyc7DQogICAgICAgIHZhciBkaXNwbGF5ID0gb2JqLnRvZ3R5cGUgPT09ICdtaW51cycgPyAnbm9uZScgOiAnYmxvY2snOw0KICAgICAgICB0aGlzLmdldEVsZW1lbnRzQnlUYWdOYW1lKCd1c2UnKVswXS5zZXRBdHRyaWJ1dGUoJ3hsaW5rOmhyZWYnLCAnIycgKyB0eXBlKTsNCiAgICAgICAgb2JqLnRvZ3R5cGUgPSB0eXBlOw0KICAgICAgICBjaGVja0lEID0gb2JqOw0KDQogICAgICAgIHV0ZChvYmosIGlkLCBkaXNwbGF5KTsNCiAgICAgICAgZXh0cmFSZWxhRmluKCk7DQogICAgfQ0KfQ0KZnVuY3Rpb24gdXRkKG9iaiwgaWQsIHNob3csIG9jKSB7DQoNCiAgICB2YXIgcHNob3cgPSBkb2N1bWVudC5nZXRFbGVtZW50QnlJZChpZCkuc3R5bGUuZGlzcGxheSAhPT0gJ25vbmUnID8gJ2Jsb2NrJyA6ICdub25lJzsNCiAgICBpZiAob2JqLnJlbGFmcm9tKSB7DQogICAgICAgIGlmIChvYmoucmVsYWZyb20uZGlzcGxheSAhPT0gcHNob3cpIHsNCiAgICAgICAgICAgIHZhciByZWxhZnJvbXMgPSBPYmplY3Qua2V5cyhvYmoucmVsYWZyb20pOw0KICAgICAgICAgICAgcmVsYWZyb21zLnNwbGljZShyZWxhZnJvbXMuaW5kZXhPZignZGlzcGxheScpLCAxKTsNCiAgICAgICAgICAgIGZvciAodmFyIGsgPSAwOyBrIDwgcmVsYWZyb21zLmxlbmd0aDsgaysrKSB7DQogICAgICAgICAgICAgICAgdmFyIGQgPSByZWxhZnJvbXNba107DQogICAgICAgICAgICAgICAgZXh0cmFSZWxhW2RdLmlzQyA9IHRydWU7DQogICAgICAgICAgICB9DQogICAgICAgICAgICBvYmoucmVsYWZyb20uZGlzcGxheSA9IHBzaG93Ow0KICAgICAgICB9DQogICAgfQ0KICAgIGlmIChvYmoucmVsYXRvKSB7DQogICAgICAgIGlmIChvYmoucmVsYXRvLmRpc3BsYXkgIT09IHBzaG93KSB7DQogICAgICAgICAgICB2YXIgcmVsYXRvcyA9IE9iamVjdC5rZXlzKG9iai5yZWxhdG8pOw0KICAgICAgICAgICAgcmVsYXRvcy5zcGxpY2UocmVsYXRvcy5pbmRleE9mKCdkaXNwbGF5JyksIDEpOw0KICAgICAgICAgICAgZm9yICh2YXIgayA9IDA7IGsgPCByZWxhdG9zLmxlbmd0aDsgaysrKSB7DQogICAgICAgICAgICAgICAgdmFyIGQgPSByZWxhdG9zW2tdOw0KICAgICAgICAgICAgICAgIGV4dHJhUmVsYVtkXS5pc0MgPSB0cnVlOw0KICAgICAgICAgICAgfQ0KICAgICAgICAgICAgb2JqLnJlbGF0by5kaXNwbGF5ID0gcHNob3c7DQogICAgICAgIH0NCiAgICB9DQogICAgaWYgKG9iai5jYWxsKSB7DQogICAgICAgIHZhciBjYWxscyA9IE9iamVjdC5rZXlzKG9iai5jYWxsKTsNCiAgICAgICAgaWYgKGNoZWNrSUQgIT09IG9iaikgew0KICAgICAgICAgICAgZm9yICh2YXIgaSA9IDA7IGkgPCBjYWxscy5sZW5ndGg7IGkrKykgew0KICAgICAgICAgICAgICAgIHZhciBhID0gY2FsbHNbaV0uc2xpY2UoMSk7DQogICAgICAgICAgICAgICAgdmFyIGIgPSBvYmouY2FsbFtjYWxsc1tpXV07DQogICAgICAgICAgICAgICAgdmFyIGMgPSBiLnRvZ3R5cGU7DQogICAgICAgICAgICAgICAgZG9jdW1lbnQuZ2V0RWxlbWVudEJ5SWQoYSkuc3R5bGUuZGlzcGxheSA9IHNob3c7DQogICAgICAgICAgICAgICAgaWYgKGIucmVsYWZyb20gJiYgIWMpIHsNCiAgICAgICAgICAgICAgICAgICAgaWYgKGIucmVsYWZyb20uZGlzcGxheSAhPT0gc2hvdykgew0KICAgICAgICAgICAgICAgICAgICAgICAgdmFyIHJlbGFmcm9tcyA9IE9iamVjdC5rZXlzKGIucmVsYWZyb20pOw0KICAgICAgICAgICAgICAgICAgICAgICAgcmVsYWZyb21zLnNwbGljZShyZWxhZnJvbXMuaW5kZXhPZignZGlzcGxheScpLCAxKTsNCiAgICAgICAgICAgICAgICAgICAgICAgIGZvciAodmFyIGsgPSAwOyBrIDwgcmVsYWZyb21zLmxlbmd0aDsgaysrKSB7DQogICAgICAgICAgICAgICAgICAgICAgICAgICAgdmFyIGQgPSByZWxhZnJvbXNba107DQogICAgICAgICAgICAgICAgICAgICAgICAgICAgZXh0cmFSZWxhW2RdLmlzQyA9IHRydWU7DQogICAgICAgICAgICAgICAgICAgICAgICB9DQogICAgICAgICAgICAgICAgICAgICAgICBiLnJlbGFmcm9tLmRpc3BsYXkgPSBzaG93Ow0KICAgICAgICAgICAgICAgICAgICB9DQogICAgICAgICAgICAgICAgfQ0KICAgICAgICAgICAgICAgIGlmIChiLnJlbGF0byAmJiAhYykgew0KICAgICAgICAgICAgICAgICAgICBpZiAoYi5yZWxhdG8uZGlzcGxheSAhPT0gc2hvdykgew0KICAgICAgICAgICAgICAgICAgICAgICAgdmFyIHJlbGF0b3MgPSBPYmplY3Qua2V5cyhiLnJlbGF0byk7DQogICAgICAgICAgICAgICAgICAgICAgICByZWxhdG9zLnNwbGljZShyZWxhdG9zLmluZGV4T2YoJ2Rpc3BsYXknKSwgMSk7DQogICAgICAgICAgICAgICAgICAgICAgICBmb3IgKHZhciBrID0gMDsgayA8IHJlbGF0b3MubGVuZ3RoOyBrKyspIHsNCiAgICAgICAgICAgICAgICAgICAgICAgICAgICB2YXIgZCA9IHJlbGF0b3Nba107DQogICAgICAgICAgICAgICAgICAgICAgICAgICAgZXh0cmFSZWxhW2RdLmlzQyA9IHRydWU7DQogICAgICAgICAgICAgICAgICAgICAgICB9DQogICAgICAgICAgICAgICAgICAgICAgICBiLnJlbGF0by5kaXNwbGF5ID0gc2hvdzsNCiAgICAgICAgICAgICAgICAgICAgfQ0KICAgICAgICAgICAgICAgIH0NCiAgICAgICAgICAgICAgICBpZiAoYykgew0KICAgICAgICAgICAgICAgICAgICBkb2N1bWVudC5xdWVyeVNlbGVjdG9yKCJnW2VkXFw6dG9ndG9waWNpZD0nIiArIGEgKyAiJ10iKS5zdHlsZS5kaXNwbGF5ID0gc2hvdzsNCiAgICAgICAgICAgICAgICAgICAgaWYgKGMgPT09ICdtaW51cycpIHsNCiAgICAgICAgICAgICAgICAgICAgICAgIHV0ZChiLCBhLCBzaG93KQ0KICAgICAgICAgICAgICAgICAgICB9DQogICAgICAgICAgICAgICAgICAgIGlmICgoYi5jYWxsIHx8IGIuYm91bmRhcnkgfHwgYi5zdW1tYXJ5KSAmJiBjID09PSAncGx1cycpIHsNCiAgICAgICAgICAgICAgICAgICAgICAgIHV0ZChiLCBhLCBzaG93LCB0cnVlKQ0KICAgICAgICAgICAgICAgICAgICB9DQogICAgICAgICAgICAgICAgfQ0KICAgICAgICAgICAgICAgIGlmIChiLmNhbGwgJiYgIWMpIHsNCiAgICAgICAgICAgICAgICAgICAgdXRkKGIsIGEsIHNob3csIHRydWUpDQogICAgICAgICAgICAgICAgfQ0KICAgICAgICAgICAgICAgIGlmIChiLnN1bW1hcnkgJiYgIWMpIHsNCiAgICAgICAgICAgICAgICAgICAgdXRkKGIsIGEsIHNob3cpDQogICAgICAgICAgICAgICAgfQ0KICAgICAgICAgICAgICAgIGlmIChiLmJvdW5kYXJ5ICYmICFjKSB7DQogICAgICAgICAgICAgICAgICAgIHV0ZChiLCBhLCBzaG93KQ0KICAgICAgICAgICAgICAgIH0NCg0KICAgICAgICAgICAgfQ0KICAgICAgICB9DQogICAgfQ0KICAgIGlmIChvYmouc3VtbWFyeSkgew0KICAgICAgICB2YXIgc3VtbWFyeXMgPSBPYmplY3Qua2V5cyhvYmouc3VtbWFyeSk7DQogICAgICAgIGlmICgoY2hlY2tJRCAhPT0gb2JqICYmIChvYmoudG9ndHlwZSA9PT0gJ21pbnVzJyB8fCAhb2JqLnRvZ3R5cGUpKSB8fCBjaGVja0lEID09PSBvYmopIHsNCiAgICAgICAgICAgIGZvciAodmFyIGkgPSAwOyBpIDwgc3VtbWFyeXMubGVuZ3RoOyBpKyspIHsNCiAgICAgICAgICAgICAgICB2YXIgYSA9IHN1bW1hcnlzW2ldLnNsaWNlKDEpOw0KICAgICAgICAgICAgICAgIHZhciBvc3AgPSBkb2N1bWVudC5nZXRFbGVtZW50QnlJZChhKS5nZXRBdHRyaWJ1dGUoJ2VkOnBhcmVudGlkJyk7DQogICAgICAgICAgICAgICAgaWYgKG9zcC5tYXRjaCgvXCwvKSkgew0KICAgICAgICAgICAgICAgICAgICB2YXIgb3NwYSA9IG9zcC5zcGxpdCgnLCcpOw0KICAgICAgICAgICAgICAgICAgICB2YXIgb3NwTCA9IDA7DQoNCiAgICAgICAgICAgICAgICAgICAgZm9yICh2YXIgaiA9IDA7IGogPCBvc3BhLmxlbmd0aDsgaisrKSB7DQogICAgICAgICAgICAgICAgICAgICAgICBpZiAoc2hvdyA9PSAnbm9uZScpIHsNCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBpZiAoZG9jdW1lbnQuZ2V0RWxlbWVudEJ5SWQob3NwYVtqXSkuc3R5bGUuZGlzcGxheSAhPSAnbm9uZScpIHsNCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgYnJlYWs7DQogICAgICAgICAgICAgICAgICAgICAgICAgICAgfSBlbHNlIHsNCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgb3NwTCsrOw0KICAgICAgICAgICAgICAgICAgICAgICAgICAgIH0NCiAgICAgICAgICAgICAgICAgICAgICAgIH0gZWxzZSB7DQogICAgICAgICAgICAgICAgICAgICAgICAgICAgaWYgKGRvY3VtZW50LmdldEVsZW1lbnRCeUlkKGEpLnN0eWxlLmRpc3BsYXkgIT0gJ25vbmUnKSB7DQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGJyZWFrOw0KICAgICAgICAgICAgICAgICAgICAgICAgICAgIH0gZWxzZSB7DQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIG9zcEwrKzsNCiAgICAgICAgICAgICAgICAgICAgICAgICAgICB9DQogICAgICAgICAgICAgICAgICAgICAgICB9DQoNCiAgICAgICAgICAgICAgICAgICAgfQ0KICAgICAgICAgICAgICAgICAgICBpZiAob3NwTCAhPT0gb3NwYS5sZW5ndGgpIHsNCiAgICAgICAgICAgICAgICAgICAgICAgIGNvbnRpbnVlOw0KICAgICAgICAgICAgICAgICAgICB9DQogICAgICAgICAgICAgICAgfQ0KICAgICAgICAgICAgICAgIHZhciBiID0gb2JqLnN1bW1hcnlbc3VtbWFyeXNbaV1dOw0KICAgICAgICAgICAgICAgIC8vIGNvbnNvbGUubG9nKGEpOw0KICAgICAgICAgICAgICAgIGRvY3VtZW50LmdldEVsZW1lbnRCeUlkKGEpLnN0eWxlLmRpc3BsYXkgPSBzaG93Ow0KICAgICAgICAgICAgICAgIC8vICAgICAgICAgICAgICAgIGlmKGMpew0KICAgICAgICAgICAgICAgIC8vICAgICAgICAgICAgICAgICAgICBkb2N1bWVudC5xdWVyeVNlbGVjdG9yKCJnW2VkXFw6dG9ndG9waWNpZD0nIithKyInXSIpLnN0eWxlLmRpc3BsYXk9c2hvdzsNCiAgICAgICAgICAgICAgICAvLyAgICAgICAgICAgICAgICAgICAgaWYoYz09PSdtaW51cycpew0KICAgICAgICAgICAgICAgIC8vICAgICAgICAgICAgICAgICAgICAgICAgdXRkKGIsc2hvdykNCiAgICAgICAgICAgICAgICAvLyAgICAgICAgICAgICAgICAgICAgfQ0KICAgICAgICAgICAgICAgIC8vICAgICAgICAgICAgICAgICAgICBpZiAoYi5jYWxsJiZjPT09J3BsdXMnKSB7DQogICAgICAgICAgICAgICAgLy8gICAgICAgICAgICAgICAgICAgICAgICB1dGQoYixzaG93LHRydWUpDQogICAgICAgICAgICAgICAgLy8gICAgICAgICAgICAgICAgICAgIH0NCiAgICAgICAgICAgICAgICAvLyAgICAgICAgICAgICAgICB9DQogICAgICAgICAgICAgICAgLy8gICAgICAgICAgICAgICAgaWYoYi5jYWxsJiYhYykgew0KICAgICAgICAgICAgICAgIC8vICAgICAgICAgICAgICAgICAgICB1dGQoYixzaG93LHRydWUpDQogICAgICAgICAgICAgICAgLy8gICAgICAgICAgICAgICAgfQ0KICAgICAgICAgICAgICAgIGlmIChPYmplY3Qua2V5cyhiKS5sZW5ndGggIT09IDApIHsNCiAgICAgICAgICAgICAgICAgICAgdXRkKGIsIGEsIHNob3cpDQogICAgICAgICAgICAgICAgfQ0KICAgICAgICAgICAgfQ0KICAgICAgICB9DQogICAgfQ0KICAgIGlmIChvYmouYm91bmRhcnkpIHsNCiAgICAgICAgdmFyIGJvdW5kYXJ5cyA9IE9iamVjdC5rZXlzKG9iai5ib3VuZGFyeSk7DQogICAgICAgIGlmIChjaGVja0lEICE9PSBvYmopIHsNCiAgICAgICAgICAgIGZvciAodmFyIGkgPSAwOyBpIDwgYm91bmRhcnlzLmxlbmd0aDsgaSsrKSB7DQogICAgICAgICAgICAgICAgdmFyIGEgPSBib3VuZGFyeXNbaV0uc2xpY2UoMSk7DQogICAgICAgICAgICAgICAgdmFyIGIgPSBvYmouYm91bmRhcnlbYm91bmRhcnlzW2ldXTsNCiAgICAgICAgICAgICAgICAvLyBjb25zb2xlLmxvZyhhKTsNCiAgICAgICAgICAgICAgICBkb2N1bWVudC5nZXRFbGVtZW50QnlJZChhKS5zdHlsZS5kaXNwbGF5ID0gc2hvdzsNCiAgICAgICAgICAgICAgICAvLyAgICAgICAgICAgICAgICBpZihjKXsNCiAgICAgICAgICAgICAgICAvLyAgICAgICAgICAgICAgICAgICAgZG9jdW1lbnQucXVlcnlTZWxlY3RvcigiZ1tlZFxcOnRvZ3RvcGljaWQ9JyIrYSsiJ10iKS5zdHlsZS5kaXNwbGF5PXNob3c7DQogICAgICAgICAgICAgICAgLy8gICAgICAgICAgICAgICAgICAgIGlmKGM9PT0nbWludXMnKXsNCiAgICAgICAgICAgICAgICAvLyAgICAgICAgICAgICAgICAgICAgICAgIHV0ZChiLHNob3cpDQogICAgICAgICAgICAgICAgLy8gICAgICAgICAgICAgICAgICAgIH0NCiAgICAgICAgICAgICAgICAvLyAgICAgICAgICAgICAgICAgICAgaWYgKGIuY2FsbCYmYz09PSdwbHVzJykgew0KICAgICAgICAgICAgICAgIC8vICAgICAgICAgICAgICAgICAgICAgICAgdXRkKGIsc2hvdyx0cnVlKQ0KICAgICAgICAgICAgICAgIC8vICAgICAgICAgICAgICAgICAgICB9DQogICAgICAgICAgICAgICAgLy8gICAgICAgICAgICAgICAgfQ0KICAgICAgICAgICAgICAgIC8vICAgICAgICAgICAgICAgIGlmKGIuY2FsbCYmIWMpIHsNCiAgICAgICAgICAgICAgICAvLyAgICAgICAgICAgICAgICAgICAgdXRkKGIsc2hvdyx0cnVlKQ0KICAgICAgICAgICAgICAgIC8vICAgICAgICAgICAgICAgIH0NCiAgICAgICAgICAgICAgICBpZiAoT2JqZWN0LmtleXMoYikubGVuZ3RoICE9PSAwKSB7DQogICAgICAgICAgICAgICAgICAgIHV0ZChiLCBhLCBzaG93KQ0KICAgICAgICAgICAgICAgIH0NCiAgICAgICAgICAgIH0NCiAgICAgICAgfQ0KICAgIH0NCiAgICBpZiAoIW9jICYmIG9iai5jaGlsZCkgew0KICAgICAgICB2YXIgY2hpbGRzID0gT2JqZWN0LmtleXMob2JqLmNoaWxkKTsNCiAgICAgICAgZm9yICh2YXIgaSA9IDA7IGkgPCBjaGlsZHMubGVuZ3RoOyBpKyspIHsNCiAgICAgICAgICAgIHZhciBhID0gY2hpbGRzW2ldLnNsaWNlKDEpOw0KICAgICAgICAgICAgdmFyIGIgPSBvYmouY2hpbGRbY2hpbGRzW2ldXTsNCiAgICAgICAgICAgIHZhciBjID0gYi50b2d0eXBlOw0KICAgICAgICAgICAgZG9jdW1lbnQuZ2V0RWxlbWVudEJ5SWQoYSkuc3R5bGUuZGlzcGxheSA9IHNob3c7DQogICAgICAgICAgICB2YXIgdFNQYXRoID0gZG9jdW1lbnQucXVlcnlTZWxlY3RvcigicGF0aFtlZFxcOnRvc3VwZXJpZD0nIiArIGEgKyAiJ10iKTsNCiAgICAgICAgICAgIGlmICh0U1BhdGgpIHsNCiAgICAgICAgICAgICAgICB0U1BhdGguc3R5bGUuZGlzcGxheSA9IHNob3c7DQogICAgICAgICAgICB9DQogICAgICAgICAgICB2YXIgbm90ZVRpcCA9IGRvY3VtZW50LnF1ZXJ5U2VsZWN0b3IoImdbZWRcXDpub3RldG89JyIgKyBhICsgIiddIik7DQogICAgICAgICAgICBpZiAobm90ZVRpcCkgew0KICAgICAgICAgICAgICAgIG5vdGVUaXAuc3R5bGUuZGlzcGxheSA9IHNob3c7DQogICAgICAgICAgICB9DQogICAgICAgICAgICBpZiAoYi5yZWxhZnJvbSAmJiAhYykgew0KICAgICAgICAgICAgICAgIGlmIChiLnJlbGFmcm9tLmRpc3BsYXkgIT09IHNob3cpIHsNCiAgICAgICAgICAgICAgICAgICAgdmFyIHJlbGFmcm9tcyA9IE9iamVjdC5rZXlzKGIucmVsYWZyb20pOw0KICAgICAgICAgICAgICAgICAgICByZWxhZnJvbXMuc3BsaWNlKHJlbGFmcm9tcy5pbmRleE9mKCdkaXNwbGF5JyksIDEpOw0KICAgICAgICAgICAgICAgICAgICBmb3IgKHZhciBrID0gMDsgayA8IHJlbGFmcm9tcy5sZW5ndGg7IGsrKykgew0KICAgICAgICAgICAgICAgICAgICAgICAgdmFyIGQgPSByZWxhZnJvbXNba107DQogICAgICAgICAgICAgICAgICAgICAgICBleHRyYVJlbGFbZF0uaXNDID0gdHJ1ZTsNCiAgICAgICAgICAgICAgICAgICAgfQ0KICAgICAgICAgICAgICAgICAgICBiLnJlbGFmcm9tLmRpc3BsYXkgPSBzaG93Ow0KICAgICAgICAgICAgICAgIH0NCiAgICAgICAgICAgIH0NCiAgICAgICAgICAgIGlmIChiLnJlbGF0byAmJiAhYykgew0KICAgICAgICAgICAgICAgIGlmIChiLnJlbGF0by5kaXNwbGF5ICE9PSBzaG93KSB7DQogICAgICAgICAgICAgICAgICAgIHZhciByZWxhdG9zID0gT2JqZWN0LmtleXMoYi5yZWxhdG8pOw0KICAgICAgICAgICAgICAgICAgICByZWxhdG9zLnNwbGljZShyZWxhdG9zLmluZGV4T2YoJ2Rpc3BsYXknKSwgMSk7DQogICAgICAgICAgICAgICAgICAgIGZvciAodmFyIGsgPSAwOyBrIDwgcmVsYXRvcy5sZW5ndGg7IGsrKykgew0KICAgICAgICAgICAgICAgICAgICAgICAgdmFyIGQgPSByZWxhdG9zW2tdOw0KICAgICAgICAgICAgICAgICAgICAgICAgZXh0cmFSZWxhW2RdLmlzQyA9IHRydWU7DQogICAgICAgICAgICAgICAgICAgIH0NCiAgICAgICAgICAgICAgICAgICAgYi5yZWxhdG8uZGlzcGxheSA9IHNob3c7DQogICAgICAgICAgICAgICAgfQ0KICAgICAgICAgICAgfQ0KICAgICAgICAgICAgaWYgKGMpIHsNCiAgICAgICAgICAgICAgICBkb2N1bWVudC5xdWVyeVNlbGVjdG9yKCJnW2VkXFw6dG9ndG9waWNpZD0nIiArIGEgKyAiJ10iKS5zdHlsZS5kaXNwbGF5ID0gc2hvdzsNCiAgICAgICAgICAgICAgICBpZiAoYyA9PT0gJ21pbnVzJykgew0KICAgICAgICAgICAgICAgICAgICB1dGQoYiwgYSwgc2hvdykNCiAgICAgICAgICAgICAgICB9DQogICAgICAgICAgICAgICAgaWYgKChiLmNhbGwgfHwgYi5ib3VuZGFyeSB8fCBiLnN1bW1hcnkpICYmIGMgPT09ICdwbHVzJykgew0KICAgICAgICAgICAgICAgICAgICB1dGQoYiwgYSwgc2hvdywgdHJ1ZSkNCiAgICAgICAgICAgICAgICB9DQogICAgICAgICAgICB9DQogICAgICAgICAgICBpZiAoYi5jYWxsICYmICFjKSB7DQogICAgICAgICAgICAgICAgdXRkKGIsIGEsIHNob3csIHRydWUpDQogICAgICAgICAgICB9DQogICAgICAgICAgICBpZiAoYi5zdW1tYXJ5ICYmICFjKSB7DQogICAgICAgICAgICAgICAgdXRkKGIsIGEsIHNob3cpDQogICAgICAgICAgICB9DQogICAgICAgICAgICBpZiAoYi5ib3VuZGFyeSAmJiAhYykgew0KICAgICAgICAgICAgICAgIHV0ZChiLCBhLCBzaG93KQ0KICAgICAgICAgICAgfQ0KICAgICAgICB9DQogICAgfQ0KfQ0KDQpmdW5jdGlvbiBleHRyYVJlbGFGaW4oKSB7DQogICAgdmFyIGV4dHJha2V5cyA9IE9iamVjdC5rZXlzKGV4dHJhUmVsYSk7DQogICAgZm9yICh2YXIgaSA9IDA7IGkgPCBleHRyYWtleXMubGVuZ3RoOyBpKyspIHsNCiAgICAgICAgdmFyIGV4dHJhT2JqID0gZXh0cmFSZWxhW2V4dHJha2V5c1tpXV07DQogICAgICAgIGlmIChleHRyYU9iai5pc0MgPT09IHRydWUpIHsNCiAgICAgICAgICAgIHZhciBmc2hvdyA9IGRvY3VtZW50LmdldEVsZW1lbnRCeUlkKGV4dHJhT2JqLmZyb21pZCkuc3R5bGUuZGlzcGxheSAhPT0gJ25vbmUnID8gdHJ1ZSA6IGZhbHNlOw0KICAgICAgICAgICAgdmFyIHRzaG93ID0gZG9jdW1lbnQuZ2V0RWxlbWVudEJ5SWQoZXh0cmFPYmoudG9pZCkuc3R5bGUuZGlzcGxheSAhPT0gJ25vbmUnID8gdHJ1ZSA6IGZhbHNlOw0KICAgICAgICAgICAgZG9jdW1lbnQuZ2V0RWxlbWVudEJ5SWQoZXh0cmFPYmouaWQpLnN0eWxlLmRpc3BsYXkgPSBmc2hvdyAmJiB0c2hvdyA/ICdibG9jaycgOiAnbm9uZSc7DQogICAgICAgICAgICBleHRyYVJlbGFbZXh0cmFrZXlzW2ldXS5pc0MgPSBmYWxzZTsNCiAgICAgICAgfQ0KICAgIH0NCn0='))</script>
+  </body>
+</html>
